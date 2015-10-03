@@ -21,7 +21,7 @@ class SimulatedAnnealing(OptimizationAlgorithm):
 #     * @see shared.Trainer#train()
 #     */
     def train(self):
-        HillClimbingProblem p = (HillClimbingProblem) getOptimizationProblem()
+        HillClimbingProblem p = self.getOptimizationProblem()
         Instance neigh = p.neighbor(cur)
         double neighVal = p.value(neigh)
         if (neighVal > self.curVal || Distribution.random.nextDouble() < Math.exp((neighVal - self.curVal) / self.t)):
