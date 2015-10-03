@@ -15,8 +15,8 @@ class OptimizationAlgorithm:
 #     * Get an optimization problem
 #     * @return the problem
 #     */
-    def getOptimizationProblem():
-        return op
+    def getOptimizationProblem(self):
+        return self.op
     
 #    /**
 #     * Get the optimal data
