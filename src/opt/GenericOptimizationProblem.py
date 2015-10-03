@@ -3,7 +3,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class GenericOptimizationProblem:  # Inherit? OptimizationProblem {
+class GenericOptimizationProblem(OptimizationProblem):
 
 #    /**
 #     * Make a new generic optimization problem
@@ -18,12 +18,12 @@ class GenericOptimizationProblem:  # Inherit? OptimizationProblem {
 #    /**
 #     * @see opt.OptimizationProblem#value(opt.OptimizationData)
 #     */
-    def value(Instance d)
+    def value(self, Instance d)
         return eval.value(d)
 
 
 #    /**
 #     * @see opt.OptimizationProblem#random()
 #     */
-    def random():
+    def random(self):
         return initial.sample(null)
