@@ -11,7 +11,7 @@ class SimulatedAnnealing(OptimizationAlgorithm):
 #     * @param hcp the problem to solve
 #     */
     def __init__(double t, double cooling, HillClimbingProblem hcp):
-#        super(hcp)
+        self.hcp = hcp
         self.t = t
         self.cooling = cooling
         self.cur = hcp.random()
@@ -33,5 +33,5 @@ class SimulatedAnnealing(OptimizationAlgorithm):
 #    /**
 #     * @see opt.OptimizationAlgorithm#getOptimal()
 #     */
-    def getOptimal():
-        return cur
+    def getOptimal(self):
+        return self.cur
