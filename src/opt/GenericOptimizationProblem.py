@@ -3,7 +3,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-Class GenericOptimizationProblem:  # Inherit? OptimizationProblem {
+class GenericOptimizationProblem:  # Inherit? OptimizationProblem {
 
 #    /**
 #     * Make a new generic optimization problem
