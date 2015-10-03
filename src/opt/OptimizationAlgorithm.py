@@ -8,9 +8,8 @@ class OptimizationAlgorithm:
 #     * Make a new optimization algorithm
 #     * @param op the problem to optimize
 #     */
-    def __init__(OptimizationProblem op) {
-        this.op = op;
-    }
+    def __init__(OptimizationProblem op):
+        self.op = op
     
 #    /**
 #     * Get an optimization problem
