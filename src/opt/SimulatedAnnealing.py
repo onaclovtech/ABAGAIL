@@ -3,7 +3,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class SimulatedAnnealing: # extends OptimizationAlgorithm {
+class SimulatedAnnealing(OptimizationAlgorithm):
 #    /**
 #     * Make a new simulated annealing hill climbing
 #     * @param t the starting temperature
