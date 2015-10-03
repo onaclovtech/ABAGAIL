@@ -3,7 +3,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class OptimizationAlgorithm: # implements Trainer {
+class OptimizationAlgorithm:
 #    /**
 #     * Make a new optimization algorithm
 #     * @param op the problem to optimize
