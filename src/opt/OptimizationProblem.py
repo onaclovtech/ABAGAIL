@@ -4,7 +4,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-Class OptimizationProblem:
+class OptimizationProblem:
 #    /**
 #     * Evaluate the given data
 #     * @param d the data to evaluate
