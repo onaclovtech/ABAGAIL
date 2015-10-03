@@ -3,7 +3,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class GenericHillClimbingProblem: # extends GenericOptimizationProblem implements HillClimbingProblem {
+class GenericHillClimbingProblem(GenericOptimizationProblem,HillClimbingProblem):
 
 #    /**
 #     * Make a new hill climbing problem
@@ -12,11 +12,12 @@ class GenericHillClimbingProblem: # extends GenericOptimizationProblem implement
 #     * @param neigh the neighbor function
 #     */
     def __init__(EvaluationFunction eval, Distribution dist, NeighborFunction neigh):
-        super(eval, dist);
-        this.neigh = neigh;
+        self.eval = eval
+        self.dist = dist
+        self.neigh = neigh
 
 #    /**
 #     * @see opt.HillClimbingProblem#neighbor(opt.OptimizationData)
 #     */
-    def neighbor(Instance d):
-        return neigh.neighbor(d);
+    def neighbor(self, Instance d):
+        return self.neigh.neighbor(d);
