@@ -4,7 +4,7 @@
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class HillClimbingProblem # inherits OptimizationProblem {
+class HillClimbingProblem (OptimizationProblem):
     
 #    /**
 #     * Find a neighbor to the given piece of data
