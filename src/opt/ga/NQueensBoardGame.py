@@ -3,10 +3,10 @@
 # */
 class NQueensBoardGame:
 
-	/**
-	 * X---> increases left to right with zero based index Y increases top to
-	 * bottom with zero based index | | V
-	 */
+#	/**
+#	 * X---> increases left to right with zero based index Y increases top to
+#	 * bottom with zero based index | | V
+#	 */
 	def __init__(n):
 		self.size = n
 		self.board = new int[size][size]
