@@ -5,19 +5,19 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class NeuralNetworkEvaluationFunction (EvaluationFunction):
+class NeuralNetworkEvaluationFunction (EvaluationFunction):
 #/**
 #* The network
 #*/
-    NeuralNetwork network
+   # NeuralNetwork network
 #/**
 #* The examples
 #*/
-    DataSet examples
+    #DataSet examples
 #/**
 #* The error measure
-#*/
-    ErrorMeasure measure
+#*/#
+   # ErrorMeasure measure
     
 #/**
 #* Make a new neural network evaluation function
@@ -25,7 +25,7 @@
 #* @param examples the examples
 #* @param measure the error measure
 #*/
-     NeuralNetworkEvaluationFunction(NeuralNetwork network,
+     def __init__(NeuralNetwork network,
             DataSet examples, ErrorMeasure measure):
         self.network = network
         self.examples = examples

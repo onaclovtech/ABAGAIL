@@ -1,140 +1,123 @@
-
-
-
 #/**
 #* A data set is just a collection of instances
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class DataSet (Copyable), Iterable<Instance> {
+class DataSet:
 #/**
 #* The list of instances
 #*/
-    Instance[] instances
+    #Instance[] instances
     
 #/**
 #* The description of the data set
 #*/
-    DataSetDescription description
+    #DataSetDescription description
     
 #/**
-#* Make a new data set from the given instances
+#* Make a data set from the given instances
 #* @param instances the instances
 #* @param description the data set description
 #*/
-     DataSet(Instance[] instances, DataSetDescription description):
+     def __init__(self, instances, description = None):
         self.instances = instances
         self.description = description
-    }
-    
-#/**
-#* Make a new data set with the given instances
-#* @param instances the instances
-#*/
-     DataSet(Instance[] instances):
-        self.instances = instances
-    }
     
 #/**
 #* Get the size of the data set
 #* @return the size of the data set
 #*/
-     int size():
-        return instances.length
-    }
+     def size():
+        return len(instances)
+    
     
 #/**
 #* Get the ith instance
 #* @param i the index
 #* @return the instance
 #*/
-     Instance get(int i):
+     def get(self,  i):
         return instances[i]
-    }
+    
     
 #/**
 #* Set the ith instance
 #* @param i the index
-#* @param instance the new instance
+#* @param instance the instance
 #*/
-      set(int i, Instance instance):
+     def set(self, i, instance):
         instances[i] = instance
-    }
     
 #/**
 #* Get the description of the data set
 #* @return the description
 #*/
-     DataSetDescription getDescription():
+     def getDescription(self):
         return description
-    }
     
 #/**
 #* Set the description
-#* @param description the new description
+#* @param description the description
 #*/
-      setDescription(DataSetDescription description):
+     def setDescription(self, description):
         self.description = description
-    }
-    
+      
 #/**
 #* Get the instances
 #* @return the instances
 #*/
-     Instance[] getInstances():
+     def getInstances(self):
         return instances
-    }
+    
 
 #/**
 #* Set the instances
 #* @param instances the instances
 #*/
-      setInstances(Instance[] instances):
+     def setInstances(self, instances):
         self.instances = instances
-    }
+    
 #/**
 #* Get the label data set
 #* @return the label data set
 #*/
-     DataSet getLabelDataSet():
-        Instance[] labels = new Instance[instances.length]
-        for (int i = 0 i < labels.length i++):
+     def getLabelDataSet(self):
+        labels = Instance[instances.length]
+        for i in range(len(labels)):
             labels[i] = instances[i].getLabel()
             if (labels[i].getWeight() == 1.0):
                 labels[i].setWeight(instances[i].getWeight())
-            }
-        }
-        DataSetDescription labelDescription = null
+            
+        
+        labelDescription = null
         if (description != null):
             labelDescription = description.getLabelDescription()
-        }
-        return new DataSet(labels, labelDescription)
-    }
+        
+        return DataSet(labels, labelDescription)
+    
     
 #/**
 #* @see java.lang.Object#toString()
 #*/
-     String toString():
-        String result = "Description:\n" + description + "\n"
-        for (int i = 0 i < instances.length i++):
+     def toString(self):
+        result = "Description:\n" + description + "\n"
+        for i in range(len(instances)):
             result += instances[i] + "\n"
-        }
+        
         return result
-    }
+    
 
-    @Override
-     DataSet copy():
-        Instance[] copy = new Instance[self.size()]
-        for (int i = 0 i < copy.length i++):
-            copy[i] = (Instance) self.get(i).copy()
-        }
-        DataSet newSet = new DataSet(copy)
-        newSet.setDescription(new DataSetDescription(newSet))
+    #@Override
+     def copy(self):
+        copy = Instance[self.size()]
+        for i in range(len(copy)):
+            copy[i] = self.get(i).copy()
+        
+        newSet = DataSet(copy)
+        newSet.setDescription(DataSetDescription(newSet))
         return newSet
-    }
+    
 
-    @Override
-     Iterator<Instance> iterator():
-        return Arrays.asList(instances).iterator()
-    }
-}
+   # @Override
+#     Iterator<Instance> iterator():
+#        return Arrays.asList(instances).iterator()

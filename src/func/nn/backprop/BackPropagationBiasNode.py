@@ -1,4 +1,4 @@
-
+from src.func.nn.backprop.BackPropagationNode import *
 #/**
 #* A bias node, implemented as a node
 #* that refuses to feed forward values
@@ -8,25 +8,13 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class BackPropagationBiasNode extends BackPropagationNode {
+class BackPropagationBiasNode(BackPropagationNode):
     
 #/**
 #* A bias node
 #* @param bias the bias value to set to
 #*/
-     BackPropagationBiasNode(double bias):
-        super(null)
-        setActivation(bias)
-    }
-
-#/**
-#* @see nn.FeedForwardNode#feedforward()
-#*/    
-      feedforward(): }
-    
-#/**
-#* @see nn.backprop.BackPropagationNode#backpropagate()
-#*/
-      backpropagate(): }
-    
-}
+     def __init__(self,bias):
+        self.setActivation(bias)
+        self.outLinks = []
+        self.inLinks = []

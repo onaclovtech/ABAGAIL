@@ -4,7 +4,7 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- interface ErrorMeasure {
+class ErrorMeasure:
 
 #/**
 #* Measure the error for the given output and target
@@ -12,6 +12,5 @@
 #* @param example the example
 #* @return the error
 #*/
-     abstract double value(Instance output, Instance example)
+     def value(Instance output, Instance example)
 
-}

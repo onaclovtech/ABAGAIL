@@ -1,4 +1,4 @@
-
+from src.shared.AbstractErrorMeasure import *
 
 
 #/**
@@ -9,34 +9,29 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class SumOfSquaresError extends AbstractErrorMeasure
-        (GradientErrorMeasure):
+class SumOfSquaresError(AbstractErrorMeasure):
 
 #/**
 #* @see nn.error.ErrorMeasure#error(double[], nn.Pattern[], int)
 #*/
-     double value(Instance output, Instance example):
-        double sum = 0
-        Instance label = example.getLabel()
-        for (int i = 0 i < output.size() i++):
+     def value(self, output, example):
+        sum = 0
+        label = example.getLabel()
+        for i in range(len(output)):
             sum += (output.getContinuous(i) - label.getContinuous(i)) 
 #* (output.getContinuous(i) - label.getContinuous(i))
 #* example.getWeight()
-        }
+        
         return .5 * sum
-    }
+    
 
 #/**
 #* @see nn.error.DifferentiableErrorMeasure#derivatives(double[], nn.Pattern[], int)
 #*/
-     double[] gradient(Instance output, Instance example):      
-        double[] errorArray = new double[output.size()]
-        Instance label = example.getLabel()
-        for (int i = 0 i < output.size() i++):
+     def gradient(self, output, example):      
+        errorArray = double[output.size()]
+        label = example.getLabel()
+        for i in range(len(output)):
             errorArray[i] = (output.getContinuous(i) - label.getContinuous(i))
 #* example.getWeight()
-        }
         return errorArray
-    }
-
-}

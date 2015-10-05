@@ -1,84 +1,57 @@
-
-
-
+from src.opt.example.NeuralNetworkEvaluationFunction import *
 
 #/**
 #* A class for performing neural network optimzation
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class NeuralNetworkOptimizationProblem (HillClimbingProblem), GeneticAlgorithmProblem {
-
+class NeuralNetworkOptimizationProblem:
 #/**
-#* The evaluation function
-#*/
-    EvaluationFunction eval
-#/**
-#* The cross over function
-#*/
-    CrossoverFunction crossover
-#/**
-#* The neighbor function
-#*/
-    NeighborFunction neighbor
-#/**
-#* The mutation function
-#*/
-    MutationFunction mutate
-#/**
-#* The distribution
-#*/
-    Distribution dist
-    
-#/**
-#* Make a new neural network optimization
+#* Make a neural network optimization
 #* @param examples the examples
 #* @param network the neural network
 #* @param measure the error measure
 #*/
-     NeuralNetworkOptimizationProblem(DataSet examples,
-             NeuralNetwork network, ErrorMeasure measure):
-        eval = new NeuralNetworkEvaluationFunction(network, examples, measure)
-        crossover = new UniformCrossOver()
-        neighbor = new ContinuousAddOneNeighbor()
-        mutate = new ContinuousAddOneMutation()
-        dist = new NeuralNetworkWeightDistribution(network.getLinks().size())
-    }
+     def __init__(self, examples, network, measure):
+        self.eval = NeuralNetworkEvaluationFunction(network, examples, measure)
+        self.crossover = UniformCrossOver()
+        self.neighbor = ContinuousAddOneNeighbor()
+        self.mutate = ContinuousAddOneMutation()
+        self.dist = NeuralNetworkWeightDistribution(network.getLinks().size())
+    
 
 #/**
 #* @see opt.OptimizationProblem#value(opt.OptimizationData)
 #*/
-     double value(Instance d):
+     def value(self, d):
         return eval.value(d)
-    }
+
 
 #/**
 #* @see opt.OptimizationProblem#random()
 #*/
-     Instance random():
+     def random(self):
         return dist.sample(null)
-    }
+    
 
 #/**
 #* @see opt.OptimizationProblem#neighbor(opt.Instance)
 #*/
-     Instance neighbor(Instance d):
+     def neighbor(self, d):
         return neighbor.neighbor(d)
-    }
+    
     
 
 #/**
 #* @see opt.GeneticAlgorithmProblem#mate(opt.Instance, opt.Instance)
 #*/
-     Instance mate(Instance da, Instance db):
+     def mate(self, da, db):
         return crossover.mate(da, db)
-    }
+    
 
 #/**
 #* @see opt.GeneticAlgorithmProblem#mutate(opt.Instance)
 #*/
-      mutate(Instance d):
+     def mutate(self, d):
         mutate.mutate(d)
-    }
-
-}
+    

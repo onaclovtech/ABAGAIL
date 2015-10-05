@@ -1,5 +1,12 @@
 import csv
-from .src.func.nn.backprop.BackPropagationNetworkFactory import *
+from src.func.nn.backprop.BackPropagationNetworkFactory import *
+from src.func.nn.backprop.BackPropagationNetwork import *
+from src.opt.example.NeuralNetworkOptimizationProblem import *
+from src.opt.OptimizationAlgorithm import *
+from src.shared.SumOfSquaresError import *
+from src.shared.DataSet import *
+
+
 #/**
 #* Implementation of randomized hill climbing, simulated annealing, and genetic algorithm to
 #* find optimal weights to a neural network that is classifying abalone as having either fewer 
@@ -17,41 +24,40 @@ class AbaloneTest:
       self.trainingIterations = 1000
       self.factory = BackPropagationNetworkFactory()
       self.measure = SumOfSquaresError()
-      self.set = DataSet(instances)
-      self.networks = BackPropagationNetwork[3]
-      self.nnop = NeuralNetworkOptimizationProblem[3]
-      self.oa = OptimizationAlgorithm[3]
+      self.set = DataSet(self.instances)
+      self.networks = [3]
+      self.nnop = [3]
+      self.oa = [3]
       self.oaNames = {"RHC", "SA", "GA"}
       self.results = ""
-      self.df = DecimalFormat("0.000")
 
-   def run(args):
-        for i in range(len(oa)):
-            networks[i] = factory.createClassificationNetwork({inputLayer, hiddenLayer, outputLayer})
-            nnop[i] = NeuralNetworkOptimizationProblem(set, networks[i], measure)
+   def run(self):
+        for i in range(len(self.oa)):
+            self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
+            nnop[i] = NeuralNetworkOptimizationProblem(set, self.networks[i], self.measure)
 
-        oa[0] = RandomizedHillClimbing(nnop[0])
-        oa[1] = SimulatedAnnealing(1E11, .95, nnop[1])
-        oa[2] = StandardGeneticAlgorithm(200, 100, 10, nnop[2])
+        self.oa[0] = RandomizedHillClimbing(nnop[0])
+        self.oa[1] = SimulatedAnnealing(1E11, .95, nnop[1])
+        self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, nnop[2])
 
-        for i in range(len(oa)):
+        for i in range(len(self.oa)):
             start = System.nanoTime()
             correct = 0
             incorrect = 0
-            train(oa[i], networks[i], oaNames[i]) #trainer.train()
+            train(self.oa[i], self.networks[i], self.oaNames[i]) #trainer.train()
             end = System.nanoTime()
             trainingTime = end - start
             trainingTime /= Math.pow(10,9)
 
-            optimalInstance = oa[i].getOptimal()
-            networks[i].setWeights(optimalInstance.getData())
+            optimalInstance = self.oa[i].getOptimal()
+            self.networks[i].setWeights(optimalInstance.getData())
             start = System.nanoTime()
             for j in range(len(instances)):
-                networks[i].setInputValues(instances[j].getData())
-                networks[i].run()
+                self.networks[i].setInputValues(instances[j].getData())
+                self.networks[i].run()
 
                 predicted = Double.parseDouble(instances[j].getLabel().toString())
-                actual = Double.parseDouble(networks[i].getOutputValues().toString())
+                actual = Double.parseDouble(self.networks[i].getOutputValues().toString())
 
                 # Fix this
                 #trash = Math.abs(predicted - actual) < 0.5 ? correct++ : incorrect++
@@ -60,7 +66,7 @@ class AbaloneTest:
             testingTime = end - start
             testingTime /= Math.pow(10,9)
 
-            #results +=  "\nResults for " + oaNames[i] + ": \nCorrectly classified " + correct + " instances." +
+            #results +=  "\nResults for " + self.oaNames[i] + ": \nCorrectly classified " + correct + " instances." +
             #            "\nIncorrectly classified " + incorrect + " instances.\nPercent correctly classified: "
             #            + df.format(correct/(correct+incorrect)*100) + "%\nTraining time: " + df.format(trainingTime)
             #            + " seconds\nTesting time: " + df.format(testingTime) + " seconds\n"
@@ -83,7 +89,7 @@ class AbaloneTest:
                 output = instances[j].getLabel()
                 example = Instance(network.getOutputValues())
                 example.setLabel(Instance(Double.parseDouble(network.getOutputValues().toString())))
-                error += measure.value(output, example)
+                error += self.measure.value(output, example)
             
 
             System.out.println(df.format(error))
@@ -95,7 +101,7 @@ class AbaloneTest:
       #attributes = double[4177][][]
       # Basically read the CSV.
       attributes = []
-      with open('abalone.txt', 'rb') as csvfile:
+      with open('./src/opt/test/abalone.txt', 'rb') as csvfile:
          spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
          for row in spamreader:
             attributes.append(row)
@@ -108,4 +114,4 @@ class AbaloneTest:
 
 if __name__ == '__main__':
    blah = AbaloneTest()
-   print AbaloneTest
+   print blah.run()
