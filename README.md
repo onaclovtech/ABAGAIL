@@ -1,6 +1,12 @@
 ABAGAIL
 =======
 
+*NOTE* Rebuilding into PYTHON so yea.
+
+Run at command line ABALONETEST.py from ABAGAIL/ folder. (not the original "test" one)
+
+   >python -m AbaloneTest
+
 The library contains a number of interconnected Java packages that implement machine learning and artificial intelligence algorithms. These are artificial intelligence algorithms implemented for the kind of people that like to implement algorithms themselves.
 
 Usage
