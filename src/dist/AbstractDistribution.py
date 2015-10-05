@@ -5,34 +5,32 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- abstract class AbstractDistribution (Distribution):
+class AbstractDistribution (Distribution):
     
 #/**
 #* @see dist.Distribution#logp(shared.Instance)
 #*/
-     double logp(Instance i):
-        double p = p(i)
-        double logp = Math.log(p)
+     def logp(i):
+        p = p(i)
+        logp = Math.log(p)
         if (Double.isInfinite(logp)):
             return -Double.MAX_VALUE
-        }
+        
         return logp
-    }
+    
     
 #/**
 #* Get an unconditional sample
 #* @return the unconditional sample
 #*/
-     Instance sample():
-        return sample(null)
-    }
+     def sample(self):
+        return sample(None)
+    
     
 #/**
 #* Get an unconditional sample
 #* @return the unconditional sample
 #*/
-     Instance mode():
-        return mode(null)
-    }
-
-}
+     def mode(self):
+        return mode(None)
+    

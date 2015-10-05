@@ -5,7 +5,7 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
-class NeuralNetworkEvaluationFunction (EvaluationFunction):
+class NeuralNetworkEvaluationFunction:
 #/**
 #* The network
 #*/
@@ -25,29 +25,25 @@ class NeuralNetworkEvaluationFunction (EvaluationFunction):
 #* @param examples the examples
 #* @param measure the error measure
 #*/
-     def __init__(NeuralNetwork network,
-            DataSet examples, ErrorMeasure measure):
+     def __init__(self,network, examples, measure):
         self.network = network
         self.examples = examples
         self.measure = measure
-    }
+    
 
 #/**
 #* @see opt.OptimizationProblem#value(opt.OptimizationData)
 #*/
-     double value(Instance d):
-        // set the links
-        Vector weights = d.getData()
-        network.setWeights(weights)
-        // calculate the error
-        double error = 0
-        for (int i = 0 i < examples.size() i++):
-            network.setInputValues(examples.get(i).getData())
-            network.run()
-            error += measure.value(new Instance(network.getOutputValues()), examples.get(i))
-        }
-        // the fitness is 1 / error
-        return 1 / error
-    }
-
-}
+     def value(self, d):
+        #// set the links
+        weights = d.getData()
+        self.network.setWeights(weights)
+       #// calculate the error
+        error = 0
+        for i in range(len(self.examples)):
+            self.network.setInputValues(self.examples.get(i).getData())
+            self.network.run()
+            error += self.measure.value(Instance(network.getOutputValues()), self.examples.get(i))
+        
+        #// the fitness is 1 / error
+        return 1.0 / error

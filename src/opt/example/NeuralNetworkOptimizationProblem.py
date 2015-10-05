@@ -1,4 +1,8 @@
 from src.opt.example.NeuralNetworkEvaluationFunction import *
+from src.opt.ga.UniformCrossOver import *
+from src.opt.ga.ContinuousAddOneMutation import *
+from src.opt.ContinuousAddOneNeighbor import *
+from src.opt.example.NeuralNetworkWeightDistribution import *
 
 #/**
 #* A class for performing neural network optimzation
