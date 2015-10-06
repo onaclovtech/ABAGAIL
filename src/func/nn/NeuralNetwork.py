@@ -10,10 +10,10 @@ class NeuralNetwork:
 #     * @return the link values
 #     */
    def getWeights(self):
-        links = getLinks()
-        weights = double[links.size()]
+        links = self.getLinks()
+        weights = [len(links)]
         for i in range(len(weights)):
-            l = links.get(i)
+            l = links[i]
             weights[i] = l.getWeight()
         return weights
     
@@ -23,16 +23,18 @@ class NeuralNetwork:
 #     */
 # This seems like it should be links...as in set links... don't know
    def setWeights(self, weights):
-        links = getLinks();
+        links = self.getLinks();
+        print len(weights)
+        print len(links)
         for i in range(len(weights)):
-            l = links.get(i)
+            l = links[i]
             l.setWeight(weights[i])
-#    /**
-#     * Set the weights of a neural network
-#     * @param weights the weight vector
-#     */
-   def setWeights(self, weights):
-        links = getLinks();
-        for i in range(len(weights)):
-            l = links.get(i)
-            l.setWeight(weights.get(i))
+# #    /**
+# #     * Set the weights of a neural network
+# #     * @param weights the weight vector
+# #     */
+   # def setWeights(self, weights):
+        # links = self.getLinks();
+        # for i in range(len(weights)):
+            # l = links[i]
+            # l.setWeight(weights[i])

@@ -5,7 +5,7 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
-class AbstractDistribution (Distribution):
+class AbstractDistribution:
     
 #/**
 #* @see dist.Distribution#logp(shared.Instance)

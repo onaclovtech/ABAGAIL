@@ -6,255 +6,223 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class Instance (Serializable), Copyable {
+class Instance:
 
 #/**
 #* The label for self instance
 #*/
-    Instance label
+    #Instance label
     
 #/**
 #* The vector storing the data
 #*/
-    Vector data
+    #Vector data
     
 #/**
 #* The weight of the instance
 #*/
-    double weight
+    #double weight
 #/**
-#* Make a new instance from the given data
+#* Make a instance from the given data
 #* @param data the data itself
 #* @param label the label
 #* @param weight the weight
 #* @param dataSet the data set
 #*/
-     Instance(Vector data, Instance label, double weight):
+     def __init__ (self, data, label = None, weight = 1.0):
         self.data = data
         self.label = label
         self.weight = weight
-    }
     
-#/**
-#* Make a new instance from the given data
-#* @param data the data itself
-#* @param label the label
-#*/
-     Instance(Vector data, Instance label):
-        self.data = data
-        self.label = label
-        self.weight = 1.0
-    }
     
-#/**
-#* Make a new instance using the given vector
-#* @param v the vector of data
-#*/
-     Instance(Vector v):
-        data = v
-        weight = 1.0
-    }
-    
-#/**
-#* Make a new instance
+# TRANSLATE THE FOLLOWING TO PYTHON
+    #/**
+#* Make a instance
 #* @param ds the data
 #*/
-     Instance(double[] ds):
-        data = new DenseVector(ds)
-        weight = 1.0
-    }
+     # Instance(double[] ds):
+        # data = DenseVector(ds)
+        # weight = 1.0
+    # }
     
-#/**
-#* Make a new instance with the given value
-#* @param val the value
-#*/
-     Instance(double val):
-        data = new DenseVector(1)
-        data.set(0, val)
-        weight = 1.0
-    }
+# #/**
+# #* Make a instance with the given value
+# #* @param val the value
+# #*/
+     # Instance(double val):
+        # data = DenseVector(1)
+        # data.set(0, val)
+        # weight = 1.0
+    # }
     
-#/**
-#* Make a new instance with the given value
-#* @param val the value
-#*/
-     Instance(int val):
-        data = new DenseVector(1)
-        data.set(0, val)
-        weight = 1.0
-    }
+# #/**
+# #* Make a instance with the given value
+# #* @param val the value
+# #*/
+     # Instance(int val):
+        # data = DenseVector(1)
+        # data.set(0, val)
+        # weight = 1.0
+    # }
     
-#/**
-#* Make a new discrete input output instance
-#* @param i the input
-#* @param o the output
-#*/
-     Instance(int i, int o):
-        self(i)
-        label = new Instance(o)
-    }
+# #/**
+# #* Make a discrete input output instance
+# #* @param i the input
+# #* @param o the output
+# #*/
+     # Instance(int i, int o):
+        # self(i)
+        # label = Instance(o)
+    # }
 
-#/**
-#* Make a new double input discrete output
-#* @param ds the input
-#* @param i the output
-#*/
-     Instance(double[] ds, int i):
-        self(ds)
-        label = new Instance(i)
-    }
+# #/**
+# #* Make a double input discrete output
+# #* @param ds the input
+# #* @param i the output
+# #*/
+     # Instance(double[] ds, int i):
+        # self(ds)
+        # label = Instance(i)
+    # }
 
-#/**
-#* Make a new input output instance
-#* @param ds the data
-#* @param b the label
-#*/
-     Instance(double[] ds, boolean b):
-        self(ds)
-        label = new Instance(b)
-    }
+# #/**
+# #* Make a input output instance
+# #* @param ds the data
+# #* @param b the label
+# #*/
+     # Instance(double[] ds, boolean b):
+        # self(ds)
+        # label = Instance(b)
+    # }
 
     
     
-#/**
-#* Make a new instance with the given boolean value
-#* @param val the value
-#*/
-     Instance(boolean val):
-        self(val ? 1 : 0)
-    }
+# #/**
+# #* Make a instance with the given boolean value
+# #* @param val the value
+# #*/
+     # Instance(boolean val):
+        # self(val ? 1 : 0)
+    # }
     
 #/**
 #* Get the size of the instance
 #* @return the size
 #*/
-     int size():
-        return data.size()
-    }
+     def size(self):
+        return len(self.data)
     
 #/**
 #* Get the ith continuous value
 #* @param i the value to get
 #* @return the value
 #*/
-     double getContinuous(int i):
-        return data.get(i)
-    }
+     def getContinuous(self, i=0):
+        return self.data[i]
+    
     
 #/**
 #* Get the ith discrete value
 #* @param i the value to get
 #* @return the value
 #*/
-     int getDiscrete(int i):
-        return (int) Math.round(data.get(i))
-    }
-    
-#/**
-#* Get the continuous value of self instance
-#* @return the value
-#*/
-     double getContinuous():
-        return getContinuous(0)
-    }
-    
-#/**
-#* Get the discrete value of self instance
-#* @return the discrete value
-#*/
-     int getDiscrete():
-        return getDiscrete(0)
-    }
+     def getDiscrete(self, i=0):
+        #return Math.round(data.get(i))
+         print "" # This needs to be fixed
+         
     
 
 #/**
 #* Get a plus or minus value
 #* @return a plus or minus boolean value
 #*/
-     double getPlusMinus():
-        return getDiscrete() == 1 ? 1 : -1
-    }
+     def getPlusMinus(self):
+        if (self.getDiscrete() == 1):
+            return 1
+        else:
+            return -1
+    
     
 #/**
 #* Get the boolean value
 #* @return the boolen value
 #*/
-     boolean getBoolean():
-        return getDiscrete() == 1
-    }
+     def getBoolean(self):
+        return self.getDiscrete() == 1
+    
     
 #/**
 #* Get the label for self instance
 #* @return the label
 #*/
-     Instance getLabel():
-        return label
-    }
+     def getLabel(self):
+        return self.label
+    
 #/**
 #* Get the data vector
 #* @return the data
 #*/
-     Vector getData():
-        return data
-    }
+     def getData(self):
+        return self.data
+    
 
 #/**
 #* Get the weight of self instance
 #* @return the weight
 #*/
-     double getWeight():
-        return weight
-    }
+     def getWeight(self):
+        return self.weight
+    
 
 #/**
 #* Set the data vector
 #* @param vector the data vector
 #*/
-      setData(Vector vector):
-        data = vector
-    }
+     def setData(self, vector):
+        self.data = vector
+    
 
 #/**
 #* Set the label for self instance
 #* @param instance the label
 #*/
-      setLabel(Instance instance):
-        label = instance
-    }
+     def setLabel(self, instance):
+        self.label = instance
+    
 
 #/**
 #* Set the weight for the instance
-#* @param d the new weight
+#* @param d the weight
 #*/
-      setWeight(double d):
-        weight = d
-    }
+     def setWeight(self, d):
+        self.weight = d
+    
     
 #/**
-#* Make a new instance
+#* Make a instance
 #* @return the copy
 #*/
-     Copyable copy():
+     def copy():
         if (label != null):
-            return new Instance((Vector) data.copy(), (Instance) label.copy(), weight)
-        } else {
-            return new Instance((Vector) data.copy(), null, weight)
-        }
-    }
+            return Instance(data.copy(), label.copy(), weight)
+        else:
+            return Instance(data.copy(), null, weight)
+        
+    
     
 #/**
 #* @see java.lang.Object#toString()
 #*/
-     String toString():
-        String result = data.toString()
+     def toString():
+        result = data.toString()
         if (label != null):
             result += " : " + label.toString()
-        }
+        
         if (weight != 1.0):
             result += " x " + weight
-        }
+        
         return result
-    }
+    
 
 
-}
+

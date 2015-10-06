@@ -11,6 +11,7 @@ class BackPropagationNetwork(FeedForwardNetwork):
       self.hiddenLayers = []
       self.inputLayer = Layer()
       self.outputLayer = Layer()
+      self.links = []
 #/**
 #* Backpropagte through the network.
 #*/

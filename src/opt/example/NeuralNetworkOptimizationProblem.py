@@ -21,28 +21,28 @@ class NeuralNetworkOptimizationProblem:
         self.crossover = UniformCrossOver()
         self.neighbor = ContinuousAddOneNeighbor()
         self.mutate = ContinuousAddOneMutation()
-        self.dist = NeuralNetworkWeightDistribution(network.getLinks().size())
+        self.dist = NeuralNetworkWeightDistribution(len(network.getLinks()))
     
 
 #/**
 #* @see opt.OptimizationProblem#value(opt.OptimizationData)
 #*/
      def value(self, d):
-        return eval.value(d)
+        return self.eval.value(d)
 
 
 #/**
 #* @see opt.OptimizationProblem#random()
 #*/
      def random(self):
-        return dist.sample(null)
+        return self.dist.sample(None)
     
 
 #/**
 #* @see opt.OptimizationProblem#neighbor(opt.Instance)
 #*/
      def neighbor(self, d):
-        return neighbor.neighbor(d)
+        return self.neighbor.neighbor(d)
     
     
 
@@ -50,12 +50,12 @@ class NeuralNetworkOptimizationProblem:
 #* @see opt.GeneticAlgorithmProblem#mate(opt.Instance, opt.Instance)
 #*/
      def mate(self, da, db):
-        return crossover.mate(da, db)
+        return self.crossover.mate(da, db)
     
 
 #/**
 #* @see opt.GeneticAlgorithmProblem#mutate(opt.Instance)
 #*/
      def mutate(self, d):
-        mutate.mutate(d)
+        self.mutate.mutate(d)
     

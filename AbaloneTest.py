@@ -3,8 +3,14 @@ from src.func.nn.backprop.BackPropagationNetworkFactory import *
 from src.func.nn.backprop.BackPropagationNetwork import *
 from src.opt.example.NeuralNetworkOptimizationProblem import *
 from src.opt.OptimizationAlgorithm import *
+from src.opt.RandomizedHillClimbing import *
+from src.opt.SimulatedAnnealing import *
+from src.opt.ga.StandardGeneticAlgorithm import *
 from src.shared.SumOfSquaresError import *
 from src.shared.DataSet import *
+
+
+
 
 
 #/**
@@ -34,11 +40,11 @@ class AbaloneTest:
    def run(self):
         for i in range(len(self.oa)):
             self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
-            nnop[i] = NeuralNetworkOptimizationProblem(set, self.networks[i], self.measure)
+            self.nnop[i] = NeuralNetworkOptimizationProblem(set, self.networks[i], self.measure)
 
-        self.oa[0] = RandomizedHillClimbing(nnop[0])
-        self.oa[1] = SimulatedAnnealing(1E11, .95, nnop[1])
-        self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, nnop[2])
+        self.oa[0] = RandomizedHillClimbing(self.nnop[0])
+        self.oa[1] = SimulatedAnnealing(1E11, .95, self.nnop[1])
+        self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, self.nnop[2])
 
         for i in range(len(self.oa)):
             start = System.nanoTime()

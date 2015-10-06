@@ -46,35 +46,35 @@ class LayeredNetwork(NeuralNetwork):
 #    * @return the layer
 #    */
    def getInputLayer(self):
-      return inputLayer
+      return self.inputLayer
 
 #   /**
 #    * Get the list of middle layers
 #    * @return the list
 #    */
    def getHiddenLayers(self):
-      return hiddenLayers
+      return self.hiddenLayers
 
 #   /**
 #    * Get the output layer
 #    * @return the layer
 #    */
    def getOutputLayer(self):
-      return outputLayer
+      return self.outputLayer
 
 #   /**
 #    * Set the input layer
 #    * @param layer the layer
 #    */
    def setInputLayer(self, layer):
-      inputLayer = layer
+      self.inputLayer = layer
 
 #   /**
 #    * Set the output layer
 #    * @param layer the output layer
 #    */
    def setOutputLayer(self, layer):
-      outputLayer = layer
+      self.outputLayer = layer
 
 #   /**
 #    * Get the middle layer count
@@ -127,10 +127,6 @@ class LayeredNetwork(NeuralNetwork):
          if (self.inputLayer != None and self.outputLayer != None):
             self.inputLayer.connect(self.outputLayer)
       #for (int i = 0; i + 1 < self.getHiddenLayerCount(); i++):
-      print "HELLO"
-      print "HELLO"
-      print "HELLO"
-      print "HELLO"
       print self.getHiddenLayerCount()
       for i in range(self.getHiddenLayerCount() - 1):
          first = self.getHiddenLayer(i)
@@ -143,6 +139,7 @@ class LayeredNetwork(NeuralNetwork):
 #     * @see nn.NeuralNetwork#getLinks()
 #     */
    def getLinks(self):
+       print "HELLO"
        if (self.links != None):
            return self.links
        self.links.addAll(self.inputLayer.getLinks())

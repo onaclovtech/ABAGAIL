@@ -1,4 +1,6 @@
+import random
 from src.dist.AbstractDistribution import *
+from src.shared.Instance import *
 
 
 #/**
@@ -32,10 +34,9 @@ class NeuralNetworkWeightDistribution(AbstractDistribution):
 #* @see dist.Distribution#generateRandom(shared.Instance)
 #*/
      def sample(self, ignored):
-        weights = double[weightCount]
+        weights = [self.weightCount]
         for i in range(len(weights)):
-            weights[i] = random.nextDouble() - .5
-        
+            weights[i] = random.random() - .5
         return Instance(weights)
     
 
