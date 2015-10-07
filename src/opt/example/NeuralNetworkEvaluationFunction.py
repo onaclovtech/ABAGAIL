@@ -43,7 +43,7 @@ class NeuralNetworkEvaluationFunction:
         for i in range(self.examples.size()):
             self.network.setInputValues(self.examples.get(i).getData())
             self.network.run()
-            error += self.measure.value(Instance(self.network.getOutputValues()), self.examples[i])
+            error += self.measure.value(Instance(self.network.getOutputValues()), self.examples.get(i))
         
         #// the fitness is 1 / error
         return 1.0 / error

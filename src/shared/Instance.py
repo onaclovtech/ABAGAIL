@@ -110,7 +110,7 @@ class Instance:
 #* @return the size
 #*/
      def size(self):
-        return len(self.data)
+        return self.data.size()
     
 #/**
 #* Get the ith continuous value
@@ -118,7 +118,7 @@ class Instance:
 #* @return the value
 #*/
      def getContinuous(self, i=0):
-        return self.data[i]
+        return self.data.get(i)
     
     
 #/**

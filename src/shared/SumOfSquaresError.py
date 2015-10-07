@@ -17,10 +17,8 @@ class SumOfSquaresError(AbstractErrorMeasure):
      def value(self, output, example):
         sum = 0
         label = example.getLabel()
-        for i in range(len(output)):
-            sum += (output.getContinuous(i) - label.getContinuous(i)) 
-#* (output.getContinuous(i) - label.getContinuous(i))
-#* example.getWeight()
+        for i in range(output.size()):
+            sum += (output.getContinuous(i) - label.getContinuous(i)) * (output.getContinuous(i) - label.getContinuous(i)) * example.getWeight()
         
         return .5 * sum
     

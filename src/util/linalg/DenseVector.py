@@ -32,14 +32,14 @@ class DenseVector(Vector):
 #* @see linalg.Vector#size()
 #*/
      def size(self):
-        return data.length
+        return len(self.data)
     
 
 #/**
 #* @see linalg.Vector#get(int)
 #*/
      def get(self, i):
-        return data[i]
+        return self.data[i]
     
     
 #/**
