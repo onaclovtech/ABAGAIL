@@ -10,7 +10,7 @@ class OptimizationProblem:
 #     * @param d the data to evaluate
 #     * @return the value of the data.
 #     */
-    def value(Instance d):
+    def value(self, d):
        print ""
 #    /**
 #     * Draw a random sample of optimization data.

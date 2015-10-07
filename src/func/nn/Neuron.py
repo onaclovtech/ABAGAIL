@@ -8,10 +8,10 @@ class Neuron:
 #   /**
 #    * Make a new node
 #    */
-   def __init__():
+   def __init__(self):
       self.inLinks = []
       self.outLinks = []
-      self.activation = ""
+      self.activation = 0.0
 
 #   /**
 #    * Get the error value
@@ -39,7 +39,7 @@ class Neuron:
 #    * @return the number of in links
 #    */
    def getInLinkCount(self):
-      return self.inLinks.size()
+      return len(self.inLinks)
    
 #   /**
 #    * Get in link number i
@@ -47,7 +47,7 @@ class Neuron:
 #    * @return the link
 #    */
    def getInLink(self, i):
-      return self.inLinks.get(i)
+      return self.inLinks[i]
 
 #   /**
 #    * Get the output links

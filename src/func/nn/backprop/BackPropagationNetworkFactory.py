@@ -1,5 +1,6 @@
 from src.func.nn.backprop.BackPropagationLayer import *
 from src.func.nn.activation.LogisticSigmoid import *
+from src.func.nn.activation.HyperbolicTangentSigmoid import *
 from src.func.nn.backprop.BackPropagationNetwork import *
 from src.func.nn.backprop.BackPropagationNode import *
 from src.func.nn.backprop.BackPropagationBiasNode import *
@@ -23,7 +24,6 @@ class BackPropagationNetworkFactory:
    def createNetwork(self, nodeCounts, transfer, outputLayer, outputFunction):
          #if (nodeCounts.length < 2):
          #   throw IllegalArgumentException()
-         
          network = BackPropagationNetwork()
          
            # create the input layer
@@ -31,7 +31,7 @@ class BackPropagationNetworkFactory:
          for i in range(nodeCounts[0]):
             inputLayer.addNode(BackPropagationNode())
          
-         inputLayer.addNode(BackPropagationBiasNode(1))
+         inputLayer.addNode(BackPropagationBiasNode(transfer, 1))
          network.setInputLayer(inputLayer)
            
          # create hidden layers
@@ -39,7 +39,7 @@ class BackPropagationNetworkFactory:
             hiddenLayer = BackPropagationLayer()
             for j in range(nodeCounts[i]):
                hiddenLayer.addNode(BackPropagationNode(transfer))
-            hiddenLayer.addNode(BackPropagationBiasNode(1))
+            hiddenLayer.addNode(BackPropagationBiasNode(transfer, 1))
             network.addHiddenLayer(hiddenLayer)
            
            # create the output layer
@@ -70,7 +70,7 @@ class BackPropagationNetworkFactory:
 #* @return a multilayer perceptron with nodeCounts.length layers
 #*/
    def createClassificationNetwork(self, nodeCounts, transfer = None):
-       if transfer:
+       if not transfer:
          return self.createClassificationNetwork(nodeCounts, HyperbolicTangentSigmoid())
        if (nodeCounts[-1] == 1):
            return self.createNetwork(nodeCounts, transfer, BackPropagationLayer(), LogisticSigmoid())     

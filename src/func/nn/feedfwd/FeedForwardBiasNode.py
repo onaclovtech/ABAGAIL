@@ -7,9 +7,3 @@ class FeedForwardBiasNode(FeedForwardNode):
 
     def __init__(activation):
         self.setActivation(activation)
-
-#/**
-#* @see nn.FeedForwardNode#feedforward()
-#*/
-    def feedforward():
-        print ""

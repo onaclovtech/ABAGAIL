@@ -1,4 +1,4 @@
-
+import math
 #/**
 #* A sigmoid activation function
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -10,8 +10,8 @@ class LogisticSigmoid():
 #* @see nn.function.ActivationFunction#activation(double)
 #*/
    def value(self, value):
-        enx = Math.exp(-value)
-        if (enx == Double.POSITIVE_INFINITY):
+        enx = math.exp(-value)
+        if (math.isinf(enx)):
             return 0
         else:
             return 1.0 / (1.0 + enx)        

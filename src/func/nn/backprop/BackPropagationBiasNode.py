@@ -14,7 +14,7 @@ class BackPropagationBiasNode(BackPropagationNode):
 #* A bias node
 #* @param bias the bias value to set to
 #*/
-     def __init__(self,bias):
-        self.setActivation(bias)
-        self.outLinks = []
-        self.inLinks = []
+
+     def __init__(self,transfer, bias):
+         BackPropagationNode.__init__(self, transfer)
+         self.setActivation(bias)

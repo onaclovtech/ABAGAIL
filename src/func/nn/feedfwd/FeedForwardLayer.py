@@ -10,6 +10,6 @@ class FeedForwardLayer(Layer):
 #/** 
 #* Feed foward all of the nodes in self layer.
 #*/
-      def feedforward():
+      def feedforward(self):
         for i in range(self.getNodeCount()):
             self.getNode(i).feedforward()

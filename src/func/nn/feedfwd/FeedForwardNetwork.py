@@ -10,10 +10,9 @@ class FeedForwardNetwork(LayeredNetwork):
 #/**
 #* @see nn.Network#run()
 #*/
-   
-      
+
    def run(self):
-        for i in range(getHiddenLayerCount()):
+        for i in range(self.getHiddenLayerCount()):
             self.getHiddenLayer(i).feedforward()
         self.getOutputLayer().feedforward()
     

@@ -1,4 +1,5 @@
 from src.func.nn.NeuralNetwork import *
+from src.func.nn.Layer import *
 #/**
 # * A layered neural network
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -9,11 +10,11 @@ class LayeredNetwork(NeuralNetwork):
 #   /**
 #    * Make a layered network
 #    */
-   def __init__():
+   def __init__(self):
       self.hiddenLayers = []
       self.inputLayer = Layer()
-      self.outputLayer = Later()
-      self.links = None;
+      self.outputLayer = Layer()
+      self.links = [];
 
 #   /**   
 #     * @see Network#getOutputValues()
@@ -127,7 +128,6 @@ class LayeredNetwork(NeuralNetwork):
          if (self.inputLayer != None and self.outputLayer != None):
             self.inputLayer.connect(self.outputLayer)
       #for (int i = 0; i + 1 < self.getHiddenLayerCount(); i++):
-      print self.getHiddenLayerCount()
       for i in range(self.getHiddenLayerCount() - 1):
          first = self.getHiddenLayer(i)
          second = self.getHiddenLayer(i + 1)
@@ -139,12 +139,11 @@ class LayeredNetwork(NeuralNetwork):
 #     * @see nn.NeuralNetwork#getLinks()
 #     */
    def getLinks(self):
-       print "HELLO"
-       if (self.links != None):
+       if (self.links != []):
            return self.links
-       self.links.addAll(self.inputLayer.getLinks())
+       self.links.append(self.inputLayer.getLinks())
        #for (int i = 0; i < self.getHiddenLayerCount(); i++):
        for i in range(self.getHiddenLayerCount()):
-           self.links.addAll(self.getHiddenLayer(i).getLinks())
-       self.links.addAll(self.outputLayer.getLinks())
-       return links
+           self.links.append(self.getHiddenLayer(i).getLinks())
+       self.links.append(self.outputLayer.getLinks())
+       return self.links

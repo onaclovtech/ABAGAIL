@@ -10,9 +10,6 @@ from src.shared.SumOfSquaresError import *
 from src.shared.DataSet import *
 
 
-
-
-
 #/**
 #* Implementation of randomized hill climbing, simulated annealing, and genetic algorithm to
 #* find optimal weights to a neural network that is classifying abalone as having either fewer 
@@ -40,7 +37,7 @@ class AbaloneTest:
    def run(self):
         for i in range(len(self.oa)):
             self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
-            self.nnop[i] = NeuralNetworkOptimizationProblem(set, self.networks[i], self.measure)
+            self.nnop[i] = NeuralNetworkOptimizationProblem(self.set, self.networks[i], self.measure)
 
         self.oa[0] = RandomizedHillClimbing(self.nnop[0])
         self.oa[1] = SimulatedAnnealing(1E11, .95, self.nnop[1])
@@ -110,13 +107,17 @@ class AbaloneTest:
       with open('./src/opt/test/abalone.txt', 'rb') as csvfile:
          spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
          for row in spamreader:
-            attributes.append(row)
             if row[-1] < 15:
-               attributes[-1].append(str(0))
+               attributes.append([row[:-1], row[-1], 0])
             else:
-               attributes[-1].append(str(1))
+               attributes.append([row[:-1], row[-1], 1])
+                
+      instances = [len(attributes)]
 
-      return attributes
+      for i in range(len(instances)):
+         instances[i] = Instance(attributes[i][0], attributes[i][2]);
+      return instances
+
 
 if __name__ == '__main__':
    blah = AbaloneTest()

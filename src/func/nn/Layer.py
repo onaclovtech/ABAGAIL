@@ -1,3 +1,4 @@
+from src.util.linalg.DenseVector import *
 #/**
 # * A layer is a collection of nodes
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -39,16 +40,16 @@ class Layer:
 #    */
    def setActivations(self, values):
       for i in range(len(values)):
-         self.getNode(i).setActivation(values.get(i))
+         self.getNode(i).setActivation(values[i])
    
 #   /**
 #    * Get the list of values in this layer
 #    * @return the list of values
 #    */
    def getActivations(self):
-      values = double[getNodeCount()];
+      values = [self.getNodeCount()];
       for i in range(len(values)):
-         values[i] = getNode(i).getActivation()
+         values[i] = self.getNode(i).getActivation()
       return DenseVector(values)
 
     
@@ -90,8 +91,8 @@ class Layer:
 #     * @return all of the links
 #     */
    def getLinks(self):
-        links = ArrayList()
-        for i in range(len(nodes)):
-            n = nodes.get(i)
-            links.addAll(n.getInLinks())
+        links = []
+        for i in range(len(self.nodes)):
+            n = self.nodes[i]
+            links.append(n.getInLinks())
         return links

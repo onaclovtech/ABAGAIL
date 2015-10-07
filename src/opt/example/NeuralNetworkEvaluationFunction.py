@@ -1,4 +1,4 @@
-
+from src.shared.Instance import *
 
 #/**
 #* An evaluation function that uses a neural network
@@ -40,10 +40,10 @@ class NeuralNetworkEvaluationFunction:
         self.network.setWeights(weights)
        #// calculate the error
         error = 0
-        for i in range(len(self.examples)):
+        for i in range(self.examples.size()):
             self.network.setInputValues(self.examples.get(i).getData())
             self.network.run()
-            error += self.measure.value(Instance(network.getOutputValues()), self.examples.get(i))
+            error += self.measure.value(Instance(self.network.getOutputValues()), self.examples[i])
         
         #// the fitness is 1 / error
         return 1.0 / error

@@ -27,8 +27,8 @@ class DataSet:
 #* Get the size of the data set
 #* @return the size of the data set
 #*/
-     def size():
-        return len(instances)
+     def size(self):
+        return len(self.instances)
     
     
 #/**
@@ -37,7 +37,7 @@ class DataSet:
 #* @return the instance
 #*/
      def get(self,  i):
-        return instances[i]
+        return self.instances[i]
     
     
 #/**
@@ -46,14 +46,14 @@ class DataSet:
 #* @param instance the instance
 #*/
      def set(self, i, instance):
-        instances[i] = instance
+        self.instances[i] = instance
     
 #/**
 #* Get the description of the data set
 #* @return the description
 #*/
      def getDescription(self):
-        return description
+        return self.description
     
 #/**
 #* Set the description
@@ -67,7 +67,7 @@ class DataSet:
 #* @return the instances
 #*/
      def getInstances(self):
-        return instances
+        return self.instances
     
 
 #/**
@@ -101,7 +101,7 @@ class DataSet:
 #*/
      def toString(self):
         result = "Description:\n" + description + "\n"
-        for i in range(len(instances)):
+        for i in range(len(self.instances)):
             result += instances[i] + "\n"
         
         return result

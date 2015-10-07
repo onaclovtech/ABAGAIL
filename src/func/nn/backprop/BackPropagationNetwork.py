@@ -7,11 +7,6 @@ from src.func.nn.Layer import *
 #*/
 class BackPropagationNetwork(FeedForwardNetwork):
 
-   def __init__(self):
-      self.hiddenLayers = []
-      self.inputLayer = Layer()
-      self.outputLayer = Layer()
-      self.links = []
 #/**
 #* Backpropagte through the network.
 #*/

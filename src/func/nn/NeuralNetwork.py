@@ -1,3 +1,4 @@
+from src.func.nn.Link import *
 #/**
 # * An abstract class representing a network
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -24,10 +25,8 @@ class NeuralNetwork:
 # This seems like it should be links...as in set links... don't know
    def setWeights(self, weights):
         links = self.getLinks();
-        print len(weights)
-        print len(links)
         for i in range(len(weights)):
-            l = links[i]
+            l = Link(links[i])
             l.setWeight(weights[i])
 # #    /**
 # #     * Set the weights of a neural network

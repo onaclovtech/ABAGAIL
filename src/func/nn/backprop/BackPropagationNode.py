@@ -26,10 +26,10 @@ class BackPropagationNode(FeedForwardNode):
 #     * @param learningRate the learning rate
 #     * @param momentum the momentum
 #     */
-   def __init__(self, transfer = None):
-      self.transfer = transfer
-      self.outLinks = []
-      self.inLinks = []
+   # def __init__(self, transfer = None):
+      # self.transfer = transfer
+      # self.outLinks = []
+      # self.inLinks = []
 #/**
 #* Back propagate error values.
 #* For nodes that have output links, first

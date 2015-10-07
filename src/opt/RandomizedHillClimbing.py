@@ -1,16 +1,16 @@
-
+from src.opt.OptimizationAlgorithm import *
 #/**
 # * A randomized hill climbing algorithm
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class RandomizedHillClimbing: # extends OptimizationAlgorithm {
+class RandomizedHillClimbing(OptimizationAlgorithm):
     
 #    /**
 #     * Make a new randomized hill climbing
 #    */
     def __init__(self, hcp):
-#        super(hcp);
+        OptimizationAlgorithm.__init__(self,hcp);
         self.cur = hcp.random()
         self.curVal = hcp.value(self.cur)
 
@@ -18,7 +18,7 @@ class RandomizedHillClimbing: # extends OptimizationAlgorithm {
 #     * @see shared.Trainer#train()
 #     */
     def train(slef):
-        hcp = getOptimizationProblem()
+        hcp = self.getOptimizationProblem()
         neigh = hcp.neighbor(self.cur)
         neighVal = hcp.value(neigh)
         if (neighVal > self.curVal):

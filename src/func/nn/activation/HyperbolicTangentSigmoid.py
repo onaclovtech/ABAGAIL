@@ -1,31 +1,30 @@
-
+import math
 #/**
 #* The tanh sigmoid function
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class HyperbolicTangentSigmoid 
-		extends DifferentiableActivationFunction{
+class HyperbolicTangentSigmoid:
 
 #/**
 #* @see nn.function.DifferentiableActivationFunction#derivative(double)
 #*/
-	 double derivative(double value):
-		double tanhvalue = value(value)
-		return 1 - tanhvalue * tanhvalue
-	}
+   def derivative(self, value):
+      tanhvalue = value(value)
+      return 1 - tanhvalue * tanhvalue
+   
 
-	/**
-	 * @see nn.function.ActivationFunction#activation(double)
-	 */
-     double value(double value):
-        double e2x = Math.exp(2 * value)
-        if (e2x == Double.POSITIVE_INFINITY):
+#   /**
+#    * @see nn.function.ActivationFunction#activation(double)
+#    */
+   def value(self, value):
+        e2x = math.exp(2 * value)
+        if (math.isinf(e2x)):
             return 1
-        } else {
+        else:
             return (e2x - 1) / (e2x + 1)
-        }
-	}
-	
+        
+   
+   
 
-}
+

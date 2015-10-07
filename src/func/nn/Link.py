@@ -1,4 +1,4 @@
-
+from src.func.nn.Neuron import *
 #/**
 # * A link between two nodes in a neural network
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -10,11 +10,11 @@ class Link:
      # * Create a linke
      # * initializes the weight to a random value
      # */
-   def __init__(self):
-      self.random = "" #Random() # Update
-      self.inNode = ""
-      self.outNode = ""
-      #self.weight = self.random.nextDouble() * 2 - 1
+   def __init__(self, random = 0, inNode = Neuron(), outNode = Neuron(), weight = 0.0):
+      self.random = random #Random() # Update
+      self.inNode = inNode
+      self.outNode = outNode
+      self.weight = weight #self.random.nextDouble() * 2 - 1
         
 #   /**
 #    * Get the in node
@@ -63,14 +63,14 @@ class Link:
 #    * @return the weighted out value
 #    */
    def getWeightedOutValue(self):
-      return self.outNode.getActivation() * weight
+      return self.outNode.getActivation() * self.weight
    
 #   /**
 #    * Get the weighted in value
 #    * @return the value
 #    */
    def getWeightedInValue(self):
-      return self.inNode.getActivation() * weight
+      return float(self.inNode.getActivation()) * self.weight
 
 #   /**
 #    * Get the weight of the link
