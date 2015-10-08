@@ -16,22 +16,18 @@ class DenseVector(Vector):
 #* Make a new dense vector
 #* @param data the data
 #*/
-     def __init__(self,data = None, size = None):
+     def __init__(self, data = None, size = None):
+        print "denseVector.init.data.type" + str(type(data))
         if data:
+            if type(data) != type([]):
+                raise TypeError('You fail')
             self.data = data
         else:
-            self.data = [size]
+            self.data = [None] * size
     
      def copy(self):
         return DenseVector(data = Vector.copy(self))
-
-#/**
-#* Make a new dense vector of the given size
-#* @param size the size to make it
-#*/
-     #DenseVector(int size):
-     #   data = new double[size]
-    
+   
 
 #/**
 #* @see linalg.Vector#size()
@@ -44,6 +40,7 @@ class DenseVector(Vector):
 #* @see linalg.Vector#get(int)
 #*/
      def get(self, i):
+        print "get.data.type: " + str(type(self.data))
         return self.data[i]
     
     

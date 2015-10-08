@@ -29,37 +29,48 @@ class Instance:
 #* @param weight the weight
 #* @param dataSet the data set
 #*/
-     def __init__ (self, data = None, label = None, weight = None, ds = None, val = None, i = None, o = None):
+     # double weight
+     # Instance label
+     # Vector data 
+     # Vector v
+     # double[] ds
+     # double val
+     # int o
+     # int i
+     # double ds
+     # boolean b
+     def __init__ (self, data = None, label = None, weight = None, ds = None, val = None, i = None, o = None, b = None):
         if data:
+            if type(data) != type(Vector()):
+                raise TypeError('Vector Class Required: ' + str(data.__class__))
             self.data = data # Vector
         if label:
+            if type(label) != type(Instance):
+                print type(label)
+                raise TypeError ('Instance Required for all Labels: ' + str(label.__class__))
             self.label = label # Instance
         if ds:
-            self.data = DenseVector(ds)
+            if type(ds) != type([]):
+                print type(ds)
+                raise TypeError('Array of "doubles" required here: '  + str(ds.__class__))
+            self.data = DenseVector(data = ds)
         if val:
             self.data = DenseVector(size = 1)
             self.data.set(0, val)
-        # if i:
-            # self.data = DenseVector(1)
-            # self.data.set(0, val)
-        # if o:
-            # self.label = Instance(o)
+        if i:
+            this(val = i)
+        if o:
+            self.label = Instance(val = float(o))
+        if b != None:
+            if b:
+                self.label = Instance(val = 1.0)
+            else:
+                self.label = Instance(val = 0.0)
         if weight:
             self.weight = weight # double
         else:
             self.weight = 1.0
     
-#    public Instance(int i, int o) {
-#        this(i); # 
-#        label = new Instance(o);
-#    public Instance(double[] ds, int i) {
-#        this(ds);
-#        label = new Instance(i);
-#    public Instance(double[] ds, boolean b) {
-#        this(ds);
-##        label = new Instance(b);
-#    public Instance(boolean val) {
-#        this(val ? 1 : 0);
 
     
 #/**
@@ -113,7 +124,8 @@ class Instance:
 #* @return the label
 #*/
      def getLabel(self):
-        return Instance(val = self.label)
+        print "instance.getLabel: " + str(type(self.label))
+        return self.label
     
 #/**
 #* Get the data vector
@@ -136,6 +148,7 @@ class Instance:
 #* @param vector the data vector
 #*/
      def setData(self, vector):
+        print "instance.setData.vector" + str(vector)
         self.data = vector
     
 
@@ -160,8 +173,10 @@ class Instance:
 #* @return the copy
 #*/
      def copy(self):
-        print self
+        print 'instance.copy' + str(self)
         if 'label' in self.__dict__:
+            print "instance.setData.vector" + str(vector)
+            
             return Instance(data = self.data.copy(), label = self.label.copy(), weight = self.weight)
         else:
             return Instance(data = self.data.copy(), weight = self.weight)

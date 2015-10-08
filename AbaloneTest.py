@@ -39,7 +39,7 @@ class AbaloneTest:
         for i in range(len(self.oa)):
             self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
             self.nnop[i] = NeuralNetworkOptimizationProblem(self.set, self.networks[i], self.measure)
-        print self.nnop[0]
+        print "abalone.test.self.networks[0]" + str(self.networks[0])
         self.oa[0] = RandomizedHillClimbing(self.nnop[0])
         self.oa[1] = SimulatedAnnealing(1E11, .95, self.nnop[1])
         self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, self.nnop[2])
@@ -90,9 +90,9 @@ class AbaloneTest:
                 network.run()
 
                 output = self.instances[j].getLabel()
-                example = Instance(network.getOutputValues())
-                print network.getOutputValues()
-                example.setLabel(Instance(ds = network.getOutputValues()))
+                print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().__class__)
+                example = Instance(data = network.getOutputValues())
+                example.setLabel(Instance(val = network.getOutputValues()))
                 error += self.measure.value(output, example)
             
 
@@ -117,7 +117,7 @@ class AbaloneTest:
 
       for i in range(len(instances)):
          instances[i] = Instance(ds = attributes[i][0])
-         instances[i].setLabel(attributes[i][2])
+         instances[i].setLabel(Instance(val = attributes[i][2]))
       return instances
 
 

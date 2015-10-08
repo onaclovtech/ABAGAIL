@@ -1,0 +1,4901 @@
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'NoneType'>
+abalone.test.self.networks[0]<src.func.nn.backprop.BackPropagationNetwork.BackPropagationNetwork instance at 0x0201F058>
+denseVector.init.data.type<type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x02023B48>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020B6940>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+
+Error results for RHC
+---------------------------
+<src.shared.Instance.Instance instance at 0x020B6800>
+instance.copy<src.shared.Instance.Instance instance at 0x020B6800>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE990>
+denseVector.init.data.type<type 'list'>
+sumofsquarederrors.example.getLabelsrc.shared.Instance.Instance
+instance.getLabel: <type 'instance'>
+SumOfSwuaredErrors: 
+example.getWeight()<type 'float'>
+get.data.type: <type 'list'>
+label.getContinuous()<type 'int'>
+get.data.type: <type 'list'>
+output.getContinuous()<type 'float'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+get.data.type: <type 'list'>
+instance.getLabel: <type 'instance'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+abalonetest.train.network.getOutputValues(): src.util.linalg.DenseVector.DenseVector
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE918>
+denseVector.init.data.type<type 'list'>
+denseVector.init.data.type<type 'list'>
+layeredNetwork.getOutputValues()<src.util.linalg.DenseVector.DenseVector instance at 0x020CE8F0>
+denseVector.init.data.type<type 'list'>
+<type 'instance'>
