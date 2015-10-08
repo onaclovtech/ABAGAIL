@@ -70,11 +70,11 @@ class AbaloneTest:
     
 
    def train(self, oa, network, oaName):
-        System.out.println("\nError results for " + oaName + "\n---------------------------")
+        print ("\nError results for " + oaName + "\n---------------------------")
 
         for i in range(trainingIterations):
             oa.train()
-
+           
             error = 0
             for j in range(len(instances)):
                 network.setInputValues(instances[j].getData())

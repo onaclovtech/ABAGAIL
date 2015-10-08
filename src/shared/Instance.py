@@ -165,7 +165,7 @@ class Instance:
         if type(instance) != type(Instance()):
             raise TypeError('Instance Required' + str(instance.__class__))
         self.label = instance
-        print "instance.self" + str(self.__dict__)
+        #print "instance.self" + str(self.__dict__)
     
 
 #/**
@@ -196,7 +196,7 @@ class Instance:
      def toString(self):
         result = self.data.toString()
         #print 'instance.tostring.self.__dict__' + str(self.__dict__)
-        if self.label:
+        if 'label' in self.__dict__.keys():
             result += " : " + self.label.toString()
         if (self.weight != 1.0):
             result += " x " + self.weight

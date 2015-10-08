@@ -17,7 +17,7 @@ class DenseVector(Vector):
 #* @param data the data
 #*/
      def __init__(self, data = None, size = None):
-        print "denseVector.init.data.type" + str(type(data))
+        #print "denseVector.init.data.type" + str(type(data))
         if data:
             if type(data) != type([]):
                 raise TypeError('You fail')
@@ -40,7 +40,7 @@ class DenseVector(Vector):
 #* @see linalg.Vector#get(int)
 #*/
      def get(self, i):
-        print "get.data.type: " + str(type(self.data))
+        #print "get.data.type: " + str(type(self.data))
         return self.data[i]
     
     

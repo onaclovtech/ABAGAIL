@@ -16,13 +16,13 @@ class SumOfSquaresError(AbstractErrorMeasure):
 #*/
      def value(self, output, example):
         sum = 0.0
-        print "sumofsquarederrors.example.getLabel" + str(example.__class__)
+        # print "sumofsquarederrors.example.getLabel" + str(example.__class__)
         label = example.getLabel()
         for i in range(output.size()):
-            print "SumOfSwuaredErrors: "
-            print "example.getWeight()" + str(type(example.getWeight()))
-            print "label.getContinuous()" +  str(type(label.getContinuous(i)))
-            print "output.getContinuous()" +  str(type(output.getContinuous(i)))
+            # print "SumOfSquaredErrors: "
+            # print "example.getWeight()" + str(type(example.getWeight()))
+            # print "label.getContinuous()" +  str(type(label.getContinuous(i)))
+            # print "output.getContinuous()" +  str(type(output.getContinuous(i)))
             sum = sum + (output.getContinuous(i) - label.getContinuous(i)) * (output.getContinuous(i) - label.getContinuous(i)) * example.getWeight()
         
         return .5 * sum

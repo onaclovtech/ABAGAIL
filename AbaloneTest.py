@@ -39,7 +39,7 @@ class AbaloneTest:
         for i in range(len(self.oa)):
             self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
             self.nnop[i] = NeuralNetworkOptimizationProblem(self.set, self.networks[i], self.measure)
-        print "abalone.test.self.networks[0]" + str(self.networks[0])
+#        print "abalone.test.self.networks[0]" + str(self.networks[0])
         self.oa[0] = RandomizedHillClimbing(self.nnop[0])
         self.oa[1] = SimulatedAnnealing(1E11, .95, self.nnop[1])
         self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, self.nnop[2])
@@ -58,12 +58,10 @@ class AbaloneTest:
             for j in range(len(self.instances)):
                 self.networks[i].setInputValues(self.instances[j].getData())
                 self.networks[i].run()
-                print self.instances[j].getLabel().__dict__
                 predicted = self.instances[j].getLabel().toString()
                 actual = self.networks[i].getOutputValues().toString()
 
-                # Fix this, although it never is used, which is odd
-                if abs(predicted - actual) < 0.5: 
+                if abs(float(predicted) - float(actual)) < 0.5: 
                     correct = correct + 1
                 else:
                     incorrect = incorrect + 1
@@ -72,36 +70,39 @@ class AbaloneTest:
             testingTime = end - start
 
              
-            results =  ["\nResults for " + self.oaNames[i] + ": \nCorrectly classified " + str(correct) + " instances.",
-                       "\nIncorrectly classified " + str(incorrect) + " instances.\nPercent correctly classified: ",
-                       str(float(correct)/(correct+incorrect)*100) + "%\nTraining time: " + str(trainingTime),
-                       " seconds\nTesting time: " + str(testingTime) + " seconds\n"]
+            results =  ["Results for " + self.oaNames[i] + ": ",
+                        "Correctly classified " + str(correct) + " instances.",
+                        "Incorrectly classified " + str(incorrect) + " instances.",
+                        "Percent correctly classified: ",
+                       str(float(correct)/(correct+incorrect)*100) + "%",
+                       "Training time: " + str(trainingTime) + " seconds",
+                       "Testing time: " + str(testingTime) + " seconds"]
         
-            print results
+            print '\n'.join(results)
        # System.out.println(results)
     
 
    def train(self, oa, network, oaName):
         print ("\nError results for " + oaName + "\n---------------------------")
-
+        res = []
         for i in range(self.trainingIterations):
             oa.train()
-
             error = 0
             for j in range(len(self.instances)):
                 network.setInputValues(self.instances[j].getData())
                 network.run()
 
                 output = self.instances[j].getLabel()
-                print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().__class__)
+                #print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().__class__)
                 example = Instance(data = network.getOutputValues())
                 example.setLabel(Instance(data = network.getOutputValues()))
                 error += self.measure.value(output, example)
             
 
-            print (error)
-        
-    
+            res.append(error)
+        #for a,b,c in zip(res[::3],res[1::3],res[2::3]):
+        #    print '{:<10}{:<10}{:<}'.format(a,b,c)
+        print res
 
    def initializeInstances(self):
 
@@ -121,7 +122,7 @@ class AbaloneTest:
       for i in range(len(instances)):
          instances[i] = Instance(ds = attributes[i][0])
          instances[i].setLabel(Instance(val = attributes[i][2]))
-         print "instances[i].getLabel().__dict__" + str(instances[i].__dict__)
+         #print "instances[i].getLabel().__dict__" + str(instances[i].__dict__)
       return instances
 
 
