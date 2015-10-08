@@ -266,18 +266,10 @@ class Vector:
 # #/**
 # #* @see java.lang.Object#toString()
 # #*/
-     # String toString():
-        # DecimalFormat df = new DecimalFormat("0.000000")
-        # String result = ""
-        # for (int i = 0 i < size() i++):
-            # result += df.format(get(i))
-            # if (i + 1 < size()):
-                # result += ", "
-            # }
-        # }
-        # return result
-    # }
-
-# }
+    def toString(self):
+        result = []
+        for i in range(self.size()):
+            result.append(str(self.get(i)))
+        return ''.join(result)
 
 

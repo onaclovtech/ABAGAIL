@@ -40,21 +40,22 @@ class Instance:
      # double ds
      # boolean b
      def __init__ (self, data = None, label = None, weight = None, ds = None, val = None, i = None, o = None, b = None):
+        #print "Instance.__init__.Parameters: " + "data: " + str(data) + " label: " + str(label) + " weight: " + str(weight) + " ds: " + str(ds) + " val: " + str(val) 
         if data:
             if type(data) != type(Vector()):
                 raise TypeError('Vector Class Required: ' + str(data.__class__))
             self.data = data # Vector
         if label:
             if type(label) != type(Instance):
-                print type(label)
                 raise TypeError ('Instance Required for all Labels: ' + str(label.__class__))
             self.label = label # Instance
         if ds:
             if type(ds) != type([]):
-                print type(ds)
                 raise TypeError('Array of "doubles" required here: '  + str(ds.__class__))
             self.data = DenseVector(data = ds)
         if val:
+            if not isinstance(val, (int, long, float, complex)):
+                raise TypeError('Wrong type in use' + str(val.__class__))
             self.data = DenseVector(size = 1)
             self.data.set(0, val)
         if i:
@@ -86,6 +87,10 @@ class Instance:
 #* @return the value
 #*/
      def getContinuous(self, i=0):
+        #print "instance.getContinuous.data.get" + str(type(self.data.get(i)))
+        if type(self.data.get(i)) == type(Instance()):
+            raise TypeError('I dont even')
+        
         return self.data.get(i)
     
     
@@ -96,7 +101,7 @@ class Instance:
 #*/
      def getDiscrete(self, i=0):
         #return Math.round(data.get(i))
-         print "" # This needs to be fixed
+         raise StubError('getDiscrete Not Implemented Yet')
          
     
 
@@ -124,7 +129,7 @@ class Instance:
 #* @return the label
 #*/
      def getLabel(self):
-        print "instance.getLabel: " + str(type(self.label))
+        #print "instance.getLabel: " + str(type(self.label))
         return self.label
     
 #/**
@@ -148,7 +153,7 @@ class Instance:
 #* @param vector the data vector
 #*/
      def setData(self, vector):
-        print "instance.setData.vector" + str(vector)
+        #print "instance.setData.vector" + str(vector)
         self.data = vector
     
 
@@ -157,7 +162,10 @@ class Instance:
 #* @param instance the label
 #*/
      def setLabel(self, instance):
+        if type(instance) != type(Instance()):
+            raise TypeError('Instance Required' + str(instance.__class__))
         self.label = instance
+        print "instance.self" + str(self.__dict__)
     
 
 #/**
@@ -173,10 +181,9 @@ class Instance:
 #* @return the copy
 #*/
      def copy(self):
-        print 'instance.copy' + str(self)
+        #print 'instance.copy' + str(self)
         if 'label' in self.__dict__:
-            print "instance.setData.vector" + str(vector)
-            
+            #print "instance.setData.vector" + str(vector)
             return Instance(data = self.data.copy(), label = self.label.copy(), weight = self.weight)
         else:
             return Instance(data = self.data.copy(), weight = self.weight)
@@ -186,13 +193,13 @@ class Instance:
 #/**
 #* @see java.lang.Object#toString()
 #*/
-     def toString():
-        result = data.toString()
-        if (label != null):
-            result += " : " + label.toString()
-        
-        if (weight != 1.0):
-            result += " x " + weight
+     def toString(self):
+        result = self.data.toString()
+        #print 'instance.tostring.self.__dict__' + str(self.__dict__)
+        if self.label:
+            result += " : " + self.label.toString()
+        if (self.weight != 1.0):
+            result += " x " + self.weight
         
         return result
     

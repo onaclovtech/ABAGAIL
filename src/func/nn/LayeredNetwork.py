@@ -20,7 +20,7 @@ class LayeredNetwork(NeuralNetwork):
 #     * @see Network#getOutputValues()
 #     */
    def getOutputValues(self):
-      print "layeredNetwork.getOutputValues()" + str(self.outputLayer.getActivations())
+      #print "layeredNetwork.getOutputValues()" + str(self.outputLayer.getActivations())
       return self.outputLayer.getActivations()
    
 #   /**
