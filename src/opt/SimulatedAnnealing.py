@@ -15,14 +15,14 @@ class SimulatedAnnealing:
         self.t = t
         self.cooling = cooling
         self.cur = hcp.random()
-        self.curVal = hcp.value(cur)
+        self.curVal = hcp.value(self.cur)
 
 #    /**
 #     * @see shared.Trainer#train()
 #     */
     def train(self):
         p = self.getOptimizationProblem()
-        neigh = p.neighbor(cur)
+        neigh = p.neighbor(self.cur)
         neighVal = p.value(neigh)
         if (neighVal > self.curVal or (Distribution.random.nextDouble() < Math.exp((neighVal - self.curVal) / self.t))):
             self.curVal = neighVal

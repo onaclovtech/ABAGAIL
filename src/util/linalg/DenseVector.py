@@ -16,10 +16,15 @@ class DenseVector(Vector):
 #* Make a new dense vector
 #* @param data the data
 #*/
-     def __init__(self,data):
-        self.data = data
+     def __init__(self,data = None, size = None):
+        if data:
+            self.data = data
+        else:
+            self.data = [size]
     
-    
+     def copy(self):
+        return DenseVector(data = Vector.copy(self))
+
 #/**
 #* Make a new dense vector of the given size
 #* @param size the size to make it

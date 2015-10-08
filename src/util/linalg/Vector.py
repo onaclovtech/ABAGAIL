@@ -26,7 +26,7 @@ class Vector:
 #* @param ib the ending index (exclusive)
 #* @return the result
 #*/
-     def get(self, ia, ib):
+    def get(self, ia, ib):
         result = [ib - ia]
         for i in len(result):
             result[i] = get(ia + i)
@@ -39,7 +39,7 @@ class Vector:
 #* @param i the starting porition
 #* @param values the values
 #*/
-     def set(self, i, values):
+    def set(self, i, values):
         #for row = i row-i < values.size() row++):
         for row in range(i,values.size): # This needs fixing
             self.set(row, values.get(row-i))
@@ -50,7 +50,7 @@ class Vector:
 #* 
 #* @param i
 #*/
-     def remove(self, inx):
+    def remove(self, inx):
         data = [self.size()]
         for i in range(len(data)):
             data[i] = self.get(i)
@@ -67,7 +67,7 @@ class Vector:
 #* @param v the other vector
 #* @return the max
 #*/
-     def max(self, v):
+    def max(self, v):
         result = [self.size()]
         for i in range(len(result)):
             result[i] = max(self.get(i), v.get(i))
@@ -78,7 +78,7 @@ class Vector:
 #* the given vector
 #* @param v the given vector
 #*/
-     def maxEquals(self, v):
+    def maxEquals(self, v):
         for i in range(self.size()):
             self.set(i, max(self.get(i), v.get(i)))
 
@@ -88,7 +88,7 @@ class Vector:
 #* the given vector
 #* @param v the given vector
 #*/
-     def minEquals(self, v):
+    def minEquals(self, v):
         for i in range(self.size()):
             self.set(i, min(self.get(i), v.get(i)))
    
@@ -98,7 +98,7 @@ class Vector:
 #* @param v the other vector
 #* @return the min
 #*/
-     def min(self, v):
+    def min(self, v):
         result = [self.size()]
         for i in range(len(result)):
             result[i] = min(self.get(i), v.get(i))
@@ -109,7 +109,7 @@ class Vector:
 #* Get the indice arg max of self vector
 #* @return the arg max inidice
 #*/
-     def argMax(self):
+    def argMax(self):
         max = 0
         for i in range(1,self.size()):
             if (self.get(i) > self.get(max)):
@@ -121,7 +121,7 @@ class Vector:
 #* @param vector the other vector
 #* @return the dot product
 #*/
-     def dotProduct(self, vector):
+    def dotProduct(self, vector):
         result = 0
         for i in range(self.size()):
             result += self.get(i) * vector.get(i)   
@@ -160,9 +160,9 @@ class Vector:
 # #* @param scale the scale
 # #*/
       # timesEquals(double scale):
-    	# for (int i = 0 i < size() i++):
-    		# set(i, get(i) * scale)
-    	# }
+        # for (int i = 0 i < size() i++):
+            # set(i, get(i) * scale)
+        # }
     # }
     
 # #/**
@@ -171,9 +171,9 @@ class Vector:
 # #* @return the result
 # #*/
      # Vector plus(Vector vector):
-      	# Vector result = (Vector) copy()
-      	# result.plusEquals(vector)
-      	# return result
+          # Vector result = (Vector) copy()
+          # result.plusEquals(vector)
+          # return result
     # }
     
 # #/**
@@ -187,16 +187,16 @@ class Vector:
         # }
         # return sum
     # }
-	
-	# /**
-	 # * Add a vector onto self vector in place
-	 # * @param vector the vector to add
-	 # */
-	  # plusEquals(Vector vector):
-		# for (int i = 0 i < size() i++):
-			# set(i, get(i) + vector.get(i))
-		# }
-	# }
+    
+    # /**
+     # * Add a vector onto self vector in place
+     # * @param vector the vector to add
+     # */
+      # plusEquals(Vector vector):
+        # for (int i = 0 i < size() i++):
+            # set(i, get(i) + vector.get(i))
+        # }
+    # }
 
 # #/**
 # #* Subtract a vector from self vector
@@ -204,20 +204,20 @@ class Vector:
 # #* @return the result
 # #*/
      # Vector minus(Vector vector):
-    	# Vector result = (Vector) copy()
-    	# result.minusEquals(vector)
-    	# return result
+        # Vector result = (Vector) copy()
+        # result.minusEquals(vector)
+        # return result
     # }
 
-	# /**
-	 # * Subtract a vector from self vector in place
-	 # * @param vector the vector to subtract
-	 # */
-	  # minusEquals(Vector vector):
-		# for (int i = 0 i < size() i++):
-			# set(i, get(i) - vector.get(i))
-		# }
-	# }
+    # /**
+     # * Subtract a vector from self vector in place
+     # * @param vector the vector to subtract
+     # */
+      # minusEquals(Vector vector):
+        # for (int i = 0 i < size() i++):
+            # set(i, get(i) - vector.get(i))
+        # }
+    # }
     
 # #/**
 # #* Get the two norm squared of self vector
@@ -236,17 +236,16 @@ class Vector:
     # }
 
 
-	# /**
-	 # * Make a copy of self vector
-	 # * @return the copy
-	 # */
-	 # Copyable copy():
-		# double[] copy = new double[size()]
-		# for (int i = 0 i < copy.length i++):
-			# copy[i] = get(i)
-		# }
-		# return new DenseVector(copy)
-	# }
+    # /**
+     # * Make a copy of self vector
+     # * @return the copy
+     # */
+    def copy(self):
+        a_copy = []
+        for i in range(self.size()):
+             a_copy.append(self.get(i))
+        return a_copy
+    # }
 
 # #/**
 # #* @see java.lang.Object#equals(java.lang.Object)

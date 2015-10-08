@@ -1,5 +1,5 @@
 
-
+from src.util.linalg.DenseVector import *
 
 #/**
 #* The abstract class representing some instance.
@@ -29,81 +29,38 @@ class Instance:
 #* @param weight the weight
 #* @param dataSet the data set
 #*/
-     def __init__ (self, data, label = None, weight = 1.0):
-        self.data = data
-        self.label = label
-        self.weight = weight
+     def __init__ (self, data = None, label = None, weight = None, ds = None, val = None, i = None, o = None):
+        if data:
+            self.data = data # Vector
+        if label:
+            self.label = label # Instance
+        if ds:
+            self.data = DenseVector(ds)
+        if val:
+            self.data = DenseVector(size = 1)
+            self.data.set(0, val)
+        # if i:
+            # self.data = DenseVector(1)
+            # self.data.set(0, val)
+        # if o:
+            # self.label = Instance(o)
+        if weight:
+            self.weight = weight # double
+        else:
+            self.weight = 1.0
     
-    
-# TRANSLATE THE FOLLOWING TO PYTHON
-    #/**
-#* Make a instance
-#* @param ds the data
-#*/
-     # Instance(double[] ds):
-        # data = DenseVector(ds)
-        # weight = 1.0
-    # }
-    
-# #/**
-# #* Make a instance with the given value
-# #* @param val the value
-# #*/
-     # Instance(double val):
-        # data = DenseVector(1)
-        # data.set(0, val)
-        # weight = 1.0
-    # }
-    
-# #/**
-# #* Make a instance with the given value
-# #* @param val the value
-# #*/
-     # Instance(int val):
-        # data = DenseVector(1)
-        # data.set(0, val)
-        # weight = 1.0
-    # }
-    
-# #/**
-# #* Make a discrete input output instance
-# #* @param i the input
-# #* @param o the output
-# #*/
-     # Instance(int i, int o):
-        # self(i)
-        # label = Instance(o)
-    # }
+#    public Instance(int i, int o) {
+#        this(i); # 
+#        label = new Instance(o);
+#    public Instance(double[] ds, int i) {
+#        this(ds);
+#        label = new Instance(i);
+#    public Instance(double[] ds, boolean b) {
+#        this(ds);
+##        label = new Instance(b);
+#    public Instance(boolean val) {
+#        this(val ? 1 : 0);
 
-# #/**
-# #* Make a double input discrete output
-# #* @param ds the input
-# #* @param i the output
-# #*/
-     # Instance(double[] ds, int i):
-        # self(ds)
-        # label = Instance(i)
-    # }
-
-# #/**
-# #* Make a input output instance
-# #* @param ds the data
-# #* @param b the label
-# #*/
-     # Instance(double[] ds, boolean b):
-        # self(ds)
-        # label = Instance(b)
-    # }
-
-    
-    
-# #/**
-# #* Make a instance with the given boolean value
-# #* @param val the value
-# #*/
-     # Instance(boolean val):
-        # self(val ? 1 : 0)
-    # }
     
 #/**
 #* Get the size of the instance
@@ -156,7 +113,7 @@ class Instance:
 #* @return the label
 #*/
      def getLabel(self):
-        return self.label
+        return Instance(val = self.label)
     
 #/**
 #* Get the data vector
@@ -202,11 +159,12 @@ class Instance:
 #* Make a instance
 #* @return the copy
 #*/
-     def copy():
-        if (label != null):
-            return Instance(data.copy(), label.copy(), weight)
+     def copy(self):
+        print self
+        if 'label' in self.__dict__:
+            return Instance(data = self.data.copy(), label = self.label.copy(), weight = self.weight)
         else:
-            return Instance(data.copy(), null, weight)
+            return Instance(data = self.data.copy(), weight = self.weight)
         
     
     

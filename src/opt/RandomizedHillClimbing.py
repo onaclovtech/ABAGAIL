@@ -10,16 +10,18 @@ class RandomizedHillClimbing(OptimizationAlgorithm):
 #     * Make a new randomized hill climbing
 #    */
     def __init__(self, hcp):
-        OptimizationAlgorithm.__init__(self,hcp);
+        OptimizationAlgorithm.__init__(self,hcp) # For all I know this really doesn't do much of anything
         self.cur = hcp.random()
         self.curVal = hcp.value(self.cur)
 
 #    /**
 #     * @see shared.Trainer#train()
 #     */
-    def train(slef):
+    def train(self):
         hcp = self.getOptimizationProblem()
-        neigh = hcp.neighbor(self.cur)
+        print self.cur
+        neigh = hcp.neighbor.neighbor(self.cur) # This seems very odd, we call the neighbor variable then call neighbor on it...oddness
+                                                # Not entirely sure how it worked in java
         neighVal = hcp.value(neigh)
         if (neighVal > self.curVal):
             self.curVal = neighVal

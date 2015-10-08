@@ -17,12 +17,12 @@ class StandardGeneticAlgorithm:
         self.toMate = toMate
         self.toMutate = toMutate
         self.populationSize = populationSize
-        self.population = Instance[populationSize]
-        for i in range(len(population)):
-            population[i] = gap.random()
-        self.values = double[populationSize]
-        for i in range(len(values)):
-            values[i] = gap.value(population[i])
+        self.population = [None] * populationSize
+        for i in range(len(self.population)):
+           self. population[i] = gap.random()
+        self.values = [None] * populationSize
+        for i in range(len(self.values)):
+            self.values[i] = gap.value(self.population[i])
         
 #    /**
 #     * @see shared.Trainer#train()

@@ -1,4 +1,5 @@
 import csv
+import time
 from src.func.nn.backprop.BackPropagationNetworkFactory import *
 from src.func.nn.backprop.BackPropagationNetwork import *
 from src.opt.example.NeuralNetworkOptimizationProblem import *
@@ -28,70 +29,70 @@ class AbaloneTest:
       self.factory = BackPropagationNetworkFactory()
       self.measure = SumOfSquaresError()
       self.set = DataSet(self.instances)
-      self.networks = [3]
-      self.nnop = [3]
-      self.oa = [3]
-      self.oaNames = {"RHC", "SA", "GA"}
+      self.networks = [None] * 3
+      self.nnop = [None] * 3
+      self.oa = [None] * 3
+      self.oaNames = ["RHC", "SA", "GA"]
       self.results = ""
 
    def run(self):
         for i in range(len(self.oa)):
             self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
             self.nnop[i] = NeuralNetworkOptimizationProblem(self.set, self.networks[i], self.measure)
-
+        print self.nnop[0]
         self.oa[0] = RandomizedHillClimbing(self.nnop[0])
         self.oa[1] = SimulatedAnnealing(1E11, .95, self.nnop[1])
         self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, self.nnop[2])
 
         for i in range(len(self.oa)):
-            start = System.nanoTime()
+            start = time.time()
             correct = 0
             incorrect = 0
-            train(self.oa[i], self.networks[i], self.oaNames[i]) #trainer.train()
+            self.train(self.oa[i], self.networks[i], self.oaNames[i]) #trainer.train()
             end = System.nanoTime()
             trainingTime = end - start
-            trainingTime /= Math.pow(10,9)
 
             optimalInstance = self.oa[i].getOptimal()
             self.networks[i].setWeights(optimalInstance.getData())
             start = System.nanoTime()
-            for j in range(len(instances)):
-                self.networks[i].setInputValues(instances[j].getData())
+            for j in range(len(self.instances)):
+                self.networks[i].setInputValues(self.instances[j].getData())
                 self.networks[i].run()
 
-                predicted = Double.parseDouble(instances[j].getLabel().toString())
+                predicted = Double.parseDouble(self.instances[j].getLabel().toString())
                 actual = Double.parseDouble(self.networks[i].getOutputValues().toString())
 
-                # Fix this
+                # Fix this, although it never is used, which is odd
                 #trash = Math.abs(predicted - actual) < 0.5 ? correct++ : incorrect++
 
-            end = System.nanoTime()
+            end = time.time()
             testingTime = end - start
-            testingTime /= Math.pow(10,9)
 
-            #results +=  "\nResults for " + self.oaNames[i] + ": \nCorrectly classified " + correct + " instances." +
-            #            "\nIncorrectly classified " + incorrect + " instances.\nPercent correctly classified: "
-            #            + df.format(correct/(correct+incorrect)*100) + "%\nTraining time: " + df.format(trainingTime)
-            #            + " seconds\nTesting time: " + df.format(testingTime) + " seconds\n"
+             
+            results =  ["\nResults for " + self.oaNames[i] + ": \nCorrectly classified " + correct + " instances.",
+                       "\nIncorrectly classified " + incorrect + " instances.\nPercent correctly classified: ",
+                       float(correct)/(correct+incorrect)*100 + "%\nTraining time: " + trainingTime,
+                       " seconds\nTesting time: " + testingTime + " seconds\n"]
         
-
+            print results
        # System.out.println(results)
     
 
    def train(self, oa, network, oaName):
-        System.out.println("\nError results for " + oaName + "\n---------------------------")
+        print ("\nError results for " + oaName + "\n---------------------------")
 
-        for i in range(trainingIterations):
+        for i in range(self.trainingIterations):
             oa.train()
 
             error = 0
-            for j in range(len(instances)):
-                network.setInputValues(instances[j].getData())
+            for j in range(len(self.instances)):
+                network.setInputValues(self.instances[j].getData())
                 network.run()
 
-                output = instances[j].getLabel()
+                output = self.instances[j].getLabel()
                 example = Instance(network.getOutputValues())
-                example.setLabel(Instance(Double.parseDouble(network.getOutputValues().toString())))
+                print network.getOutputValues()
+                example.setLabel(Instance(ds = network.getOutputValues()))
                 error += self.measure.value(output, example)
             
 
@@ -115,7 +116,8 @@ class AbaloneTest:
       instances = [len(attributes)]
 
       for i in range(len(instances)):
-         instances[i] = Instance(attributes[i][0], attributes[i][2]);
+         instances[i] = Instance(ds = attributes[i][0])
+         instances[i].setLabel(attributes[i][2])
       return instances
 
 

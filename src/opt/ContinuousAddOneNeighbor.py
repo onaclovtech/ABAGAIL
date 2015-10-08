@@ -1,3 +1,4 @@
+import random
 #/**
 # * A continuous add one neighbor function
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -17,7 +18,8 @@ class ContinuousAddOneNeighbor: # implements NeighborFunction {
 #     * @see opt.NeighborFunction#neighbor(opt.OptimizationData)
 #     */
     def neighbor(self, d):
-        i = Distribution.random.nextInt(d.size())
+        i = random.randint(0,d.size())
+        print d
         cod = d.copy()
-        cod.getData().set(i, cod.getContinuous(i)+ Distribution.random.nextDouble() * amount - amount / 2)
+        cod.getData().set(i, cod.getContinuous(i)+ random.random() * self.amount - self.amount / 2.0)
         return cod

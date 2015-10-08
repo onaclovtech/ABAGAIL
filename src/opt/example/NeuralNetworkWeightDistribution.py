@@ -37,7 +37,7 @@ class NeuralNetworkWeightDistribution(AbstractDistribution):
         weights = [self.weightCount]
         for i in range(len(weights)):
             weights[i] = random.random() - .5
-        return Instance(weights)
+        return Instance(ds =weights)
     
 
 #/**

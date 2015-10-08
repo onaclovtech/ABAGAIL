@@ -39,8 +39,8 @@ class Layer:
 #    * @param values the values
 #    */
    def setActivations(self, values):
-      for i in range(len(values)):
-         self.getNode(i).setActivation(values[i])
+      for i in range(values.size()):
+         self.getNode(i).setActivation(values.get(i))
    
 #   /**
 #    * Get the list of values in this layer
