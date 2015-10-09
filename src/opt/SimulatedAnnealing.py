@@ -1,9 +1,12 @@
+import random
+import math
+from src.opt.OptimizationAlgorithm import *
 #/**
 # * A simulated annealing hill climbing algorithm
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class SimulatedAnnealing:
+class SimulatedAnnealing(OptimizationAlgorithm):
 #    /**
 #     * Make a new simulated annealing hill climbing
 #     * @param t the starting temperature
@@ -11,7 +14,8 @@ class SimulatedAnnealing:
 #     * @param hcp the problem to solve
 #     */
     def __init__(self, t, cooling, hcp):
-        self.hcp = hcp
+        OptimizationAlgorithm.__init__(self,hcp) 
+        #self.hcp = hcp
         self.t = t
         self.cooling = cooling
         self.cur = hcp.random()
@@ -22,12 +26,12 @@ class SimulatedAnnealing:
 #     */
     def train(self):
         p = self.getOptimizationProblem()
-        neigh = p.neighbor(self.cur)
+        neigh = p.neighbor.neighbor(self.cur)
         neighVal = p.value(neigh)
-        if (neighVal > self.curVal or (Distribution.random.nextDouble() < Math.exp((neighVal - self.curVal) / self.t))):
+        if (neighVal > self.curVal or (random.random() < math.exp((neighVal - self.curVal) / self.t))):
             self.curVal = neighVal
             self.cur = neigh
-        self.t = self.t * cooling
+        self.t = self.t * self.cooling
         return self.curVal
 
 #    /**

@@ -1,4 +1,4 @@
-
+from src.util.linalg.Vector import *
 
 #/**
 #* An abstract distribution

@@ -117,7 +117,7 @@ class AbaloneTest:
             else:
                attributes.append([row[:-1], row[-1], 1])
                 
-      instances = [None] * 10#len(attributes)
+      instances = [None] * 2#len(attributes)
 
       for i in range(len(instances)):
          instances[i] = Instance(ds = attributes[i][0])

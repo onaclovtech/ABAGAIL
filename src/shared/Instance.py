@@ -34,7 +34,7 @@ class Instance:
      # Vector data 
      # Vector v
      # double[] ds
-     # double val
+     # double, int val
      # int o
      # int i
      # double ds
@@ -42,7 +42,7 @@ class Instance:
      def __init__ (self, data = None, label = None, weight = None, ds = None, val = None, i = None, o = None, b = None):
         #print "Instance.__init__.Parameters: " + "data: " + str(data) + " label: " + str(label) + " weight: " + str(weight) + " ds: " + str(ds) + " val: " + str(val) 
         if data:
-            if type(data) != type(Vector()):
+            if not isinstance(data, Vector):
                 raise TypeError('Vector Class Required: ' + str(data.__class__))
             self.data = data # Vector
         if label:
@@ -71,7 +71,11 @@ class Instance:
             self.weight = weight # double
         else:
             self.weight = 1.0
-    
+        
+        if not data == None and not label == None and not ds == None and not val == None and not i == None and not o == None and not b == None:
+          print ','.join([str(data), str(label), str(weight), str(ds), str(val), str(i), str(o), str(b)])
+          raise TypeError('WHAT IS HAppening?')
+          
 
     
 #/**
@@ -88,7 +92,7 @@ class Instance:
 #*/
      def getContinuous(self, i=0):
         #print "instance.getContinuous.data.get" + str(type(self.data.get(i)))
-        if type(self.data.get(i)) == type(Instance()):
+        if isinstance(self.data.get(i), Instance):
             raise TypeError('I dont even')
         
         return self.data.get(i)
@@ -100,8 +104,9 @@ class Instance:
 #* @return the value
 #*/
      def getDiscrete(self, i=0):
-        #return Math.round(data.get(i))
-         raise StubError('getDiscrete Not Implemented Yet')
+        print "instance.getDiscrete " + str(self.__dict__)
+        return int(round(self.data.get(i)))
+       #  raise StubError('getDiscrete Not Implemented Yet')
          
     
 
@@ -162,8 +167,8 @@ class Instance:
 #* @param instance the label
 #*/
      def setLabel(self, instance):
-        if type(instance) != type(Instance()):
-            raise TypeError('Instance Required' + str(instance.__class__))
+        if not isinstance(instance, Instance):
+            raise TypeError('Instance Required ' + str(instance.__class__))
         self.label = instance
         #print "instance.self" + str(self.__dict__)
     

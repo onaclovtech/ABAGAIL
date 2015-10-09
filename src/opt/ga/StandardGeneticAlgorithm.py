@@ -1,10 +1,13 @@
+import math
+from src.opt.OptimizationAlgorithm import *
+from src.dist.DiscreteDistribution import *
 #/**
 # * Genetic algorithms are pretty stupid.
 # * This is based on the version in Andrew Moore's tutorial.
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
 # * @version 1.0
 # */
-class StandardGeneticAlgorithm:
+class StandardGeneticAlgorithm(OptimizationAlgorithm):
 #    /**
 #     * Make a genetic algorithm
 #     * @param populationSize the size
@@ -13,13 +16,13 @@ class StandardGeneticAlgorithm:
 #     * @param gap the problem to solve
 #     */
     def __init__(self, populationSize, toMate, toMutate, gap):
-        self.gap = gap
+        OptimizationAlgorithm.__init__(self,gap)
         self.toMate = toMate
         self.toMutate = toMutate
         self.populationSize = populationSize
         self.population = [None] * populationSize
         for i in range(len(self.population)):
-           self. population[i] = gap.random()
+           self.population[i] = gap.random()
         self.values = [None] * populationSize
         for i in range(len(self.values)):
             self.values[i] = gap.value(self.population[i])
@@ -28,40 +31,40 @@ class StandardGeneticAlgorithm:
 #     * @see shared.Trainer#train()
 #     */
     def train(self):
-        ga = getOptimizationProblem();
-        probabilities = double[len(population)]
+        ga = self.getOptimizationProblem();
+        probabilities = [None] * len(self.population)
         # calculate probability distribution over the population
         sum = 0
         for i in range(len(probabilities)):
-            probabilities[i] = values[i]
+            probabilities[i] = self.values[i]
             sum += probabilities[i]
-        if (Double.isInfinite(sum)):
+        if (math.isinf(sum)):
             return sum
 
         for i in range(len(probabilities)):
             probabilities[i] /= sum
 
-        dd = DiscreteDistribution(probabilities)
+        dd = DiscreteDistribution(probabilities = probabilities)
   
         # make the children
-        newValues = double[populationSize];
-        newPopulation = Instance[populationSize];
-        for i in range(toMate):
+        newValues = [None] * self.populationSize
+        newPopulation = [None] * self.populationSize
+        for i in range(self.toMate):
             # pick the mates
-            a = population[dd.sample(null).getDiscrete()]
-            b = population[dd.sample(null).getDiscrete()]
+            a = self.population[dd.sample(None).getDiscrete()]
+            b = self.population[dd.sample(None).getDiscrete()]
             # make the kid
             newPopulation[i] = ga.mate(a, b)
             newValues[i] = -1
 
         # elite for the rest
         for i in range(len(newPopulation)):
-            j = dd.sample(null).getDiscrete()
-            newPopulation[i] = population[j]
-            newValues[i] = values[j]
+            j = dd.sample(None).getDiscrete()
+            newPopulation[i] = self.population[j]
+            newValues[i] = self.values[j]
         
         # mutate
-        for i in range(toMutate):
+        for i in range(self.toMutate):
             j = random.nextInt(newPopulation.length)
             ga.mutate(newPopulation[j])
             newValues[j] = -1
@@ -71,9 +74,9 @@ class StandardGeneticAlgorithm:
             if (newValues[i] == -1):
                 newValues[i] = ga.value(newPopulation[i])
         # the generation
-        population = newPopulation
-        values = newValues
-        return sum / populationSize
+        self.population = newPopulation
+        self.values = newValues
+        return sum / self.populationSize
 
 #    /**
 #     * @see opt.OptimizationAlgorithm#getOptimalData()
