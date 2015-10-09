@@ -46,7 +46,7 @@ class Instance:
                 raise TypeError('Vector Class Required: ' + str(data.__class__))
             self.data = data # Vector
         if label:
-            if type(label) != type(Instance):
+            if not isinstance(label, Instance):
                 raise TypeError ('Instance Required for all Labels: ' + str(label.__class__))
             self.label = label # Instance
         if ds:
@@ -72,7 +72,8 @@ class Instance:
         else:
             self.weight = 1.0
         
-        if not data == None and not label == None and not ds == None and not val == None and not i == None and not o == None and not b == None:
+        if data is None and ds is None and val is None:
+          print val
           print ','.join([str(data), str(label), str(weight), str(ds), str(val), str(i), str(o), str(b)])
           raise TypeError('WHAT IS HAppening?')
           
