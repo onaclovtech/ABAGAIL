@@ -50,7 +50,7 @@ class Instance:
                 raise TypeError ('Instance Required for all Labels: ' + str(label.__class__))
             self.label = label # Instance
         if not ds is None:
-            if type(ds) != type([]):
+            if not isinstance(ds, list):
                 raise TypeError('Array of "doubles" required here: '  + str(ds.__class__))
             self.data = DenseVector(data = ds)
         if not val is None:

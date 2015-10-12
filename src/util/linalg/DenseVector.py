@@ -19,7 +19,7 @@ class DenseVector(Vector):
      def __init__(self, data = None, size = None):
         #print "denseVector.init.data.type" + str(type(data))
         if data:
-            if type(data) != type([]):
+            if not isinstance(data, list):
                 raise TypeError('You fail')
             self.data = data
         else:

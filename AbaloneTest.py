@@ -89,7 +89,7 @@ class AbaloneTest:
             oa.train()
             error = 0
             for j in range(len(self.instances)):
-                print "self.instances[j].getData()" + str(self.instances[j].getData())
+                #print "self.instances[j].getData()" + str(self.instances[j].getData())
                 network.setInputValues(self.instances[j].getData())
                 network.run()
 

@@ -20,17 +20,17 @@ class LayeredNetwork(NeuralNetwork):
 #     * @see Network#getOutputValues()
 #     */
    def getOutputValues(self):
-      #print "layeredNetwork.getOutputValues()" + str(self.outputLayer.getActivations())
+      #print "layeredNetwork.getOutputValues().self.outputLayer.getActivations().toString()" + str(self.outputLayer.getActivations().toString())
       return self.outputLayer.getActivations()
    
 #   /**
 #    * @see Network#setInputValues(double[])
 #    */
    def setInputValues(self, values):
-      #print "LayeredNetwork.setInputValues(values): " + str(values)
       if not isinstance(values, Vector):
-         raise TypeError('Need a List: ' + str(values))
+         raise TypeError('Need a Vector Type: ' + str(values))
       self.inputLayer.setActivations(values)
+      
     
 #    /**
 #     * Get the index of the node with the largest value
@@ -144,7 +144,7 @@ class LayeredNetwork(NeuralNetwork):
 #     * @see nn.NeuralNetwork#getLinks()
 #     */
    def getLinks(self):
-       if (self.links != []):
+       if not isinstance(self.links, list):
            return self.links
        self.links.append(self.inputLayer.getLinks())
        for i in range(self.getHiddenLayerCount()):

@@ -27,7 +27,7 @@ class NeuralNetworkEvaluationFunction:
 #*/
      def __init__(self,network, examples, measure):
         self.network = network
-        print "neuralnetworkevalfunc.__init__.examples" + str(examples.__class__)
+        #print "neuralnetworkevalfunc.__init__.examples" + str(examples.__class__)
         self.examples = examples
         self.measure = measure
     
@@ -43,7 +43,8 @@ class NeuralNetworkEvaluationFunction:
         error = 0
         for i in range(self.examples.size()):
             self.network.setInputValues(self.examples.get(i).getData())
-            print 'NNEvalFunction.self.network.run()' + str(self.network.__class__)
+            #print 'NNEvalFunction.self.network.run()' + str(self.network.__class__)
+            print 'NNEvalFunction.self.examples.get(i).getData().toString()' + str(self.examples.get(i).getData().toString())
             self.network.run()
             error += self.measure.value(Instance(self.network.getOutputValues()), self.examples.get(i))
         
