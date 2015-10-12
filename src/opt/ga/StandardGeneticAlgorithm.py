@@ -89,9 +89,9 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
         ga = self.getOptimizationProblem();
         bestVal = self.values[0];
         best = 0;
-        for i in range(len(population)):
+        for i in range(len(self.population)):
             value = self.values[i]
             if (value > bestVal):
                 bestVal = value
                 best = i
-        return population[best]
+        return self.population[best]
