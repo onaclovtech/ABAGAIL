@@ -60,7 +60,7 @@ class FeedForwardNode(Neuron):
          for i in range(self.getInLinkCount()):
             sum = sum + self.getInLink(i).getWeightedInValue()
          self.weightedInputSum = sum
-         print 'FeedForwardNode.feedforward.self.activationFunction.__class__' + str(self.activationFunction.__class__)
+         #print 'FeedForwardNode.feedforward.self.activationFunction.__class__' + str(self.activationFunction.__class__)
          self.setActivation(self.activationFunction.value(sum))
 
 #<class src.func.nn.backprop.BackPropagationBiasNode.BackPropagationBiasNode at 0x014A1688>, 

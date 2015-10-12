@@ -105,7 +105,7 @@ class Instance:
 #* @return the value
 #*/
      def getDiscrete(self, i=0):
-        print "instance.getDiscrete " + str(self.__dict__)
+        #print "instance.getDiscrete " + str(self.__dict__)
         return int(round(self.data.get(i)))
        #  raise StubError('getDiscrete Not Implemented Yet')
          
@@ -143,7 +143,7 @@ class Instance:
 #* @return the data
 #*/
      def getData(self):
-        print "instance.self.getData().self.data" + str(self.data.__class__)
+        #print "instance.self.getData().self.data" + str(self.data.__class__)
         return self.data
     
 

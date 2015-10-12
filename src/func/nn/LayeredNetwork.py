@@ -27,7 +27,7 @@ class LayeredNetwork(NeuralNetwork):
 #    * @see Network#setInputValues(double[])
 #    */
    def setInputValues(self, values):
-      print "LayeredNetwork.setInputValues(values): " + str(values)
+      #print "LayeredNetwork.setInputValues(values): " + str(values)
       if not isinstance(values, Vector):
          raise TypeError('Need a List: ' + str(values))
       self.inputLayer.setActivations(values)
@@ -94,7 +94,7 @@ class LayeredNetwork(NeuralNetwork):
 #    * @return the layer
 #    */
    def getHiddenLayer(self, i):
-      print "layeredNetwork.getHiddenLayer.self.hiddenLayers[i].__class__" + str(self.hiddenLayers[i].__dict__)
+      #print "layeredNetwork.getHiddenLayer.self.hiddenLayers[i].__class__" + str(self.hiddenLayers[i].__dict__)
       return self.hiddenLayers[i] # Returns a layer, dunno
    
 #   /**
