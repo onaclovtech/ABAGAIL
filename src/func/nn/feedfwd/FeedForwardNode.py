@@ -24,6 +24,9 @@ class FeedForwardNode(Neuron):
     # */
    def __init__(self, transfer = None):
       Neuron.__init__(self)
+      #if not transfer is None:
+         #if not 'value' in transfer.__dict__: # Do we even need to check? I don't know
+         #   raise TypeError('Transfer not passed in')
       self.activationFunction = transfer
       self.weightedInputSum = 0.0
    
@@ -56,10 +59,8 @@ class FeedForwardNode(Neuron):
          sum = 0
          for i in range(self.getInLinkCount()):
             sum = sum + self.getInLink(i).getWeightedInValue()
-         weightedInputSum = sum
-         #print inspect.getmro(self.__class__)
-         #print self.__dict__
-         #print sum
+         self.weightedInputSum = sum
+         print 'FeedForwardNode.feedforward.self.activationFunction.__class__' + str(self.activationFunction.__class__)
          self.setActivation(self.activationFunction.value(sum))
 
 #<class src.func.nn.backprop.BackPropagationBiasNode.BackPropagationBiasNode at 0x014A1688>, 

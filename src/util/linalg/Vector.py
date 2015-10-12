@@ -270,6 +270,6 @@ class Vector:
         result = []
         for i in range(self.size()):
             result.append(str(self.get(i)))
-        return ''.join(result)
+        return ', '.join(result)
 
 

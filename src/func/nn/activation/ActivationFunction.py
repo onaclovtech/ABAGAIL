@@ -5,11 +5,11 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- abstract class ActivationFunction (Serializable):
+class ActivationFunction:
 #/**
 #* Activation of a value
 #* @param value the value
 #* @return the activation
 #*/
-     abstract double value(double value)
-}
+   def value(double value)
+

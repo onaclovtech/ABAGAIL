@@ -29,23 +29,27 @@ class BackPropagationNetworkFactory:
            # create the input layer
          inputLayer =  BackPropagationLayer()
          for i in range(nodeCounts[0]):
-            inputLayer.addNode(BackPropagationNode())
+            inputLayer.addNode(BackPropagationNode(None))
          
          inputLayer.addNode(BackPropagationBiasNode(transfer, 1))
          network.setInputLayer(inputLayer)
+         #print 'BackPropagationNetworkFactory.createNetwork.network.getInputLayer()' + str(network.getInputLayer())
            
          # create hidden layers
          for i in range(len(nodeCounts)):
             hiddenLayer = BackPropagationLayer()
             for j in range(nodeCounts[i]):
                hiddenLayer.addNode(BackPropagationNode(transfer))
+               #print "BackPropagationNetworkFactory.createNetwork.hiddenLayer.getNode().getActivationFunction()" + str(hiddenLayer.getNode(j).getActivationFunction())
             hiddenLayer.addNode(BackPropagationBiasNode(transfer, 1))
             network.addHiddenLayer(hiddenLayer)
+            #print 'BackPropagationNetworkFactory.createNetwork.network.getHiddenLayer()' + str(network.getHiddenLayer(i).)
            
            # create the output layer
          for i in range(nodeCounts[-1]):
             outputLayer.addNode(BackPropagationNode(outputFunction))
          network.setOutputLayer(outputLayer)
+         #print 'BackPropagationNetworkFactory.createNetwork.network.getOutputLayer()' + str(network.getOutputLayer())
          network.connect()
          return network
       
@@ -70,7 +74,7 @@ class BackPropagationNetworkFactory:
 #* @return a multilayer perceptron with nodeCounts.length layers
 #*/
    def createClassificationNetwork(self, nodeCounts, transfer = None):
-       if not transfer:
+       if transfer is None:
          return self.createClassificationNetwork(nodeCounts, HyperbolicTangentSigmoid())
        if (nodeCounts[-1] == 1):
            return self.createNetwork(nodeCounts, transfer, BackPropagationLayer(), LogisticSigmoid())     

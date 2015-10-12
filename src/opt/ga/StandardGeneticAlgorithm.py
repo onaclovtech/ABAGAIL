@@ -1,3 +1,4 @@
+import random
 import math
 from src.opt.OptimizationAlgorithm import *
 from src.dist.DiscreteDistribution import *
@@ -65,8 +66,11 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
         
         # mutate
         for i in range(self.toMutate):
-            j = random.nextInt(newPopulation.length)
-            ga.mutate(newPopulation[j])
+            j = random.randint(0,len(newPopulation)-1)
+            print "Standard.Genetic.Algorithm.ga: " + str(ga.__class__)
+            print "Standard.Genetic.Algorithm.ga.mutate: " + str(ga.mutate.__dict__)
+            print "Standard.Genetic.Algorithm.newPopulation: " + str(newPopulation[j])
+            ga.mutate.mutate(newPopulation[j])
             newValues[j] = -1
             
         # calculate the values
@@ -82,7 +86,7 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
 #     * @see opt.OptimizationAlgorithm#getOptimalData()
 #     */
     def getOptimal(self):
-        ga = getOptimizationProblem();
+        ga = self.getOptimizationProblem();
         bestVal = values[0];
         best = 0;
         for i in range(len(population)):

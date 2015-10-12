@@ -27,6 +27,9 @@ class LayeredNetwork(NeuralNetwork):
 #    * @see Network#setInputValues(double[])
 #    */
    def setInputValues(self, values):
+      print "LayeredNetwork.setInputValues(values): " + str(values)
+      if not isinstance(values, Vector):
+         raise TypeError('Need a List: ' + str(values))
       self.inputLayer.setActivations(values)
     
 #    /**
@@ -91,6 +94,7 @@ class LayeredNetwork(NeuralNetwork):
 #    * @return the layer
 #    */
    def getHiddenLayer(self, i):
+      print "layeredNetwork.getHiddenLayer.self.hiddenLayers[i].__class__" + str(self.hiddenLayers[i].__dict__)
       return self.hiddenLayers[i] # Returns a layer, dunno
    
 #   /**
@@ -111,7 +115,7 @@ class LayeredNetwork(NeuralNetwork):
          if (self.inputLayer != None and self.outputLayer != None):
             self.inputLayer.disconnect(self.outputLayer)
       #for (i = 0; i + 1 < self.getHiddenLayerCount(); i++):
-      for i in range(self.getHiddenLayerCount()):
+      for i in range(self.getHiddenLayerCount() - 1):
          first = self.getHiddenLayer(i)
          second = self.getHiddenLayer(i + 1)
          first.disconnect(second)
@@ -126,14 +130,14 @@ class LayeredNetwork(NeuralNetwork):
          firstMiddle = self.getHiddenLayer(0)
          self.inputLayer.connect(firstMiddle)
       else:
-         if (self.inputLayer != None and self.outputLayer != None):
+         if (not self.inputLayer is None and not self.outputLayer is None):
             self.inputLayer.connect(self.outputLayer)
-      #for (int i = 0; i + 1 < self.getHiddenLayerCount(); i++):
+      #for (int i = 0; i  < self.getHiddenLayerCount() - 1; i++): Did I implement right?
       for i in range(self.getHiddenLayerCount() - 1):
          first = self.getHiddenLayer(i)
          second = self.getHiddenLayer(i + 1)
          first.connect(second)
-      if (self.outputLayer != None and self.getHiddenLayerCount() > 0):
+      if (not self.outputLayer is None and self.getHiddenLayerCount() > 0):
          lastMiddle = self.getHiddenLayer(self.getHiddenLayerCount() - 1)
          lastMiddle.connect(self.outputLayer)
 #    /**
@@ -143,7 +147,6 @@ class LayeredNetwork(NeuralNetwork):
        if (self.links != []):
            return self.links
        self.links.append(self.inputLayer.getLinks())
-       #for (int i = 0; i < self.getHiddenLayerCount(); i++):
        for i in range(self.getHiddenLayerCount()):
            self.links.append(self.getHiddenLayer(i).getLinks())
        self.links.append(self.outputLayer.getLinks())

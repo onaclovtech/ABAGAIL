@@ -1,3 +1,4 @@
+import random
 #/**
 # * A continuous add one neighbor function
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -15,5 +16,5 @@ class ContinuousAddOneMutation:
 #     * @see opt.ga.MutationFunction
 #     */
     def mutate(self, cod):
-        i = Distribution.random.nextInt(cod.size())
-        cod.getData().set(i, cod.getContinuous(i)+ Distribution.random.nextDouble() * self.amount - self.amount / 2)
+        i = random.randint(0,cod.size()-1)
+        cod.getData().set(i, cod.getContinuous(i) + random.random() * self.amount - self.amount / 2)

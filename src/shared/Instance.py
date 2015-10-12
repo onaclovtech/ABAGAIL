@@ -41,33 +41,33 @@ class Instance:
      # boolean b
      def __init__ (self, data = None, label = None, weight = None, ds = None, val = None, i = None, o = None, b = None):
         #print "Instance.__init__.Parameters: " + "data: " + str(data) + " label: " + str(label) + " weight: " + str(weight) + " ds: " + str(ds) + " val: " + str(val) 
-        if data:
+        if not data is None:
             if not isinstance(data, Vector):
                 raise TypeError('Vector Class Required: ' + str(data.__class__))
             self.data = data # Vector
-        if label:
+        if not label is None:
             if not isinstance(label, Instance):
                 raise TypeError ('Instance Required for all Labels: ' + str(label.__class__))
             self.label = label # Instance
-        if ds:
+        if not ds is None:
             if type(ds) != type([]):
                 raise TypeError('Array of "doubles" required here: '  + str(ds.__class__))
             self.data = DenseVector(data = ds)
-        if val:
+        if not val is None:
             if not isinstance(val, (int, long, float, complex)):
-                raise TypeError('Wrong type in use' + str(val.__class__))
+                raise TypeError('Expected a number here ' + str(val.__class__))
             self.data = DenseVector(size = 1)
             self.data.set(0, val)
-        if i:
+        if not i is None:
             this(val = i)
-        if o:
+        if not o is None:
             self.label = Instance(val = float(o))
-        if b != None:
+        if not b is None:
             if b:
                 self.label = Instance(val = 1.0)
             else:
                 self.label = Instance(val = 0.0)
-        if weight:
+        if not weight is None:
             self.weight = weight # double
         else:
             self.weight = 1.0
@@ -143,6 +143,7 @@ class Instance:
 #* @return the data
 #*/
      def getData(self):
+        print "instance.self.getData().self.data" + str(self.data.__class__)
         return self.data
     
 
@@ -200,6 +201,8 @@ class Instance:
 #* @see java.lang.Object#toString()
 #*/
      def toString(self):
+        #print self.data.__class__
+        
         result = self.data.toString()
         #print 'instance.tostring.self.__dict__' + str(self.__dict__)
         if 'label' in self.__dict__.keys():

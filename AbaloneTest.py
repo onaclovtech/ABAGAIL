@@ -39,7 +39,7 @@ class AbaloneTest:
         for i in range(len(self.oa)):
             self.networks[i] = self.factory.createClassificationNetwork([self.inputLayer, self.hiddenLayer, self.outputLayer])
             self.nnop[i] = NeuralNetworkOptimizationProblem(self.set, self.networks[i], self.measure)
-#        print "abalone.test.self.networks[0]" + str(self.networks[0])
+
         self.oa[0] = RandomizedHillClimbing(self.nnop[0])
         self.oa[1] = SimulatedAnnealing(1E11, .95, self.nnop[1])
         self.oa[2] = StandardGeneticAlgorithm(200, 100, 10, self.nnop[2])
@@ -89,11 +89,13 @@ class AbaloneTest:
             oa.train()
             error = 0
             for j in range(len(self.instances)):
+                print "self.instances[j].getData()" + str(self.instances[j].getData())
                 network.setInputValues(self.instances[j].getData())
                 network.run()
 
                 output = self.instances[j].getLabel()
-                #print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().__class__)
+                print "abalonetest.train.self.instances[j].getLabel(): " + str(self.instances[j].getLabel().toString())
+                print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().toString())
                 example = Instance(data = network.getOutputValues())
                 example.setLabel(Instance(data = network.getOutputValues()))
                 error += self.measure.value(output, example)
@@ -104,6 +106,16 @@ class AbaloneTest:
         #    print '{:<10}{:<10}{:<}'.format(a,b,c)
         print res
 
+# 0.455,0.365,0.095,0.514,0.2245,0.101,0.15,15
+# 0.35,0.265,0.09,0.2255,0.0995,0.0485,0.07,7
+# 0.53,0.42,0.135,0.677,0.2565,0.1415,0.21,9
+# 0.44,0.365,0.125,0.516,0.2155,0.114,0.155,10
+# 0.33,0.255,0.08,0.205,0.0895,0.0395,0.055,7
+# 0.425,0.3,0.095,0.3515,0.141,0.0775,0.12,8
+# 0.53,0.415,0.15,0.7775,0.237,0.1415,0.33,20
+# 0.545,0.425,0.125,0.768,0.294,0.1495,0.26,16
+# 0.475,0.37,0.125,0.5095,0.2165,0.1125,0.165,9
+# 0.55,0.44,0.15,0.8945,0.3145,0.151,0.32,19
    def initializeInstances(self):
 
       #attributes = double[4177][][]
@@ -112,17 +124,21 @@ class AbaloneTest:
       with open('./src/opt/test/abalone.txt', 'rb') as csvfile:
          spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
          for row in spamreader:
-            if row[-1] < 15:
-               attributes.append([row[:-1], row[-1], 0])
+
+            if int(row[-1]) < 15:
+               attributes.append(row[:-1] + [row[-1]] + [0])
             else:
-               attributes.append([row[:-1], row[-1], 1])
-                
-      instances = [None] * 2#len(attributes)
+               attributes.append(row[:-1] + [row[-1]] + [1])
+            
+      instances = [None] * 10#len(attributes)
 
       for i in range(len(instances)):
-         instances[i] = Instance(ds = attributes[i][0])
-         instances[i].setLabel(Instance(val = attributes[i][2]))
-         #print "instances[i].getLabel().__dict__" + str(instances[i].__dict__)
+         instances[i] = Instance(ds = attributes[i][:-2])
+         #print instances[i].toString()
+         instances[i].setLabel(Instance(val = attributes[i][-1]))
+         #print attributes[i][-1]
+         #print "instances[i].getLabel().toString()" + str(instances[i].getLabel().toString())
+         
       return instances
 
 

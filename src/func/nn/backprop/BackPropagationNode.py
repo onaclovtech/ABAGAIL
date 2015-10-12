@@ -26,7 +26,8 @@ class BackPropagationNode(FeedForwardNode):
 #     * @param learningRate the learning rate
 #     * @param momentum the momentum
 #     */
-   # def __init__(self, transfer = None):
+   def __init__(self, transfer = None):
+      FeedForwardNode.__init__(self, transfer)
       # self.transfer = transfer
       # self.outLinks = []
       # self.inLinks = []

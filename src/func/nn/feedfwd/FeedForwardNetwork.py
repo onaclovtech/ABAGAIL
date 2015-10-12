@@ -13,6 +13,7 @@ class FeedForwardNetwork(LayeredNetwork):
 
    def run(self):
         for i in range(self.getHiddenLayerCount()):
+            print "FeedForwardNetwork.self.getHiddenLayer(i).__class__" + str(self.getHiddenLayer(i).__class__)
             self.getHiddenLayer(i).feedforward()
         self.getOutputLayer().feedforward()
     
