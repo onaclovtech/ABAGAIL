@@ -87,10 +87,10 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
 #     */
     def getOptimal(self):
         ga = self.getOptimizationProblem();
-        bestVal = values[0];
+        bestVal = self.values[0];
         best = 0;
         for i in range(len(population)):
-            value = values[i]
+            value = self.values[i]
             if (value > bestVal):
                 bestVal = value
                 best = i
