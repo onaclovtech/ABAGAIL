@@ -48,10 +48,10 @@ class Layer:
 #    */
    def getActivations(self):
       values = [None] * self.getNodeCount()
-      print "layer.getActivations.getNodeCount" + str(self.getNodeCount())
+      #print "layer.getActivations.getNodeCount" + str(self.getNodeCount())
       for i in range(len(values)):
          values[i] = self.getNode(i).getActivation()
-         print "layer.getActivations.values" + str(values[i])
+         #print "layer.getActivations.values" + str(values[i])
       return DenseVector(data = values)
 
     
