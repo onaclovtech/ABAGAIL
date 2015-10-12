@@ -91,10 +91,11 @@ class AbaloneTest:
             for j in range(len(self.instances)):
                 #print "self.instances[j].getData()" + str(self.instances[j].getData())
                 network.setInputValues(self.instances[j].getData())
+                #print network.__class__
                 network.run()
 
                 output = self.instances[j].getLabel()
-                print "abalonetest.train.self.instances[j].getLabel(): " + str(self.instances[j].getLabel().toString())
+                #print "abalonetest.train.self.instances[j].getLabel(): " + str(self.instances[j].getLabel().toString())
                 print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().toString())
                 example = Instance(data = network.getOutputValues())
                 example.setLabel(Instance(data = network.getOutputValues()))
