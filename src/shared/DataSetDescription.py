@@ -1,4 +1,4 @@
-
+from src.shared.AttributeType import *
 
 
 #/**
@@ -7,27 +7,27 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class DataSetDescription (Serializable):
+class DataSetDescription:
     
 #/**
 #* The description of the label type
 #*/
-    DataSetDescription labelDescription
+#    DataSetDescription labelDescription
     
 #/**
 #* The types of the attributes
 #*/
-    AttributeType[] types
+#    AttributeType[] types
     
 #/**
 #* The maximum value
 #*/
-    Vector max
+#    Vector max
     
 #/**
 #* The minimum value instance
 #*/
-    Vector min
+#    Vector min
     
 #/**
 #* Make a new data set description
@@ -36,59 +36,28 @@
 #* @param max the maximum value
 #* @param labelDescription the description of the label
 #*/
-     DataSetDescription(AttributeType[] types, Vector min, Vector max,
-            DataSetDescription labelDescription):
-        self.types = types
-        self.max = max
-        self.min = min
-        self.labelDescription = labelDescription             
-    }
-    
-#/**
-#* Make a new data set description
-#* @param types the types of the data
-#* @param max the maximum value
-#* @param labelDescription the description of the label
-#*/
-     DataSetDescription(AttributeType[] types, Vector max,
-            DataSetDescription labelDescription):
-        self(types, null, max, labelDescription)
-        min = new DenseVector(max.size())
-    }
-    
-#/**
-#* Make a new data set description
-#* @param types the types of the data
-#* @param max the maximum value
-#*/
-     DataSetDescription(AttributeType[] types, Vector max):
-        self(types, null, max, null)
-    }
-    
-#/**
-#* Make a new data set description
-#* @param types the types of the data
-#* @param set the data set
-#* @param min the minimum value
-#* @param max the maximum value
-#* @param labelDescription the description of the label
-#*/
-     DataSetDescription(AttributeType[] types, Vector min, Vector max):
-         self(types, min, max, null)       
-    }
-    
-#/**
-#* Make a new empty data set description
-#*/
-     DataSetDescription():}
-    
-#/**
-#* Make a new data set description induced from a data set
-#* @param dataSet the data set to induce from
-#*/
-     DataSetDescription(DataSet dataSet):
-        induceFrom(dataSet)
-    }
+     def __init__(self, types = None, min  = None, max  = None, labelDescription = None, dataSet = None):
+        if not types is None:
+            if not isinstance(types, list):
+                raise TypeError("Expected list got " + str(types.__class__))
+            self.types = types
+        if not min is None:
+            if not isinstance(min, Vector):
+                raise TypeError("Expected Vector got " + str(types.__class__))
+            self.min = min
+        if not max is None:
+            if not isinstance(max, Vector):
+                raise TypeError("Expected Vector got " + str(types.__class__))      
+            self.max = max
+            if min is None:
+                min = DenseVector(size = max.size())
+        if not labelDescription is None:
+            if not isinstance(labelDescription, DataSetDescription):
+                raise TypeError("Expected Vector got " + str(types.__class__))                   
+            self.labelDescription = labelDescription 
+        if not DataSet is None:
+            induceFrom(dataSet)
+
 
     
 #/**
@@ -96,17 +65,9 @@
 #* @param i the attribute index
 #* @return the max of the attribute
 #*/
-     int getDiscreteRange(int i):
-        return (int) max.get(i) + 1
-    }
+     def getDiscreteRange(self, i = 0):
+        return int(self.max.get(i) + 1)
     
-#/**
-#* Get the discrete range
-#* @return the range
-#*/
-     int getDiscreteRange():
-        return getDiscreteRange(0)
-    }
     
 
 #/**
@@ -114,186 +75,154 @@
 #* @param i the attribute index
 #* @return the range of the attribute
 #*/
-     double getRange(int i):
-        return getMax(i) - getMin(i)
-    }
+     def getRange(self, i = 0):
+        return self.getMax(i) - self.getMin(i)
     
-#/**
-#* Get the continuous range
-#* @return the range
-#*/
-     double getRange():
-        return getRange(0)
-    }
+    
     
 #/**
 #* Get the continuous max
 #* @param i the attribute index
 #* @return the max of the attribute
 #*/
-     double getMax(int i):
-        return max.get(i)
-    }
+     def getMax(self, i = 0):
+        return self.max.get(i)
     
-#/**
-#* Get the continuous max
-#* @return the max
-#*/
-     double getMax():
-        return getMax(0)
-    }
 
 #/**
 #* Get the continuous max
 #* @param i the attribute index
 #* @return the max of the attribute
 #*/
-     double getMin(int i):
-        return min.get(i)
-    }
-    
-#/**
-#* Get the continuous max
-#* @return the max
-#*/
-     double getMin():
-        return getMin(0)
-    }
+     def getMin(self, i = 0):
+        return self.min.get(i)
 
 #/**
 #* Get the description of the label
 #* @return the description of the label
 #*/
-     DataSetDescription getLabelDescription():
-        return labelDescription
-    }
+     def getLabelDescription(self):
+        return self.labelDescription
 
 #/**
 #* Get the maximum value
 #* @return the maximum value
 #*/
-     Vector getMaxVector():
-        return max
-    }
+     def getMaxVector(self):
+        return self.max
 
 #/**
 #* Get the types of the data
 #* @return the types
 #*/
-     AttributeType[] getAttributeTypes():
-        return types
-    }
+     def getAttributeTypes(self):
+        return self.types
     
 #/**
 #* Get the attribute count
 #* @return the count
 #*/
-     int getAttributeCount():
-        return types.length
-    }
+     def getAttributeCount(self):
+        return len(self.types)
+    
 
 #/**
 #* Get the min of the data
 #* @return the min
 #*/
-     Vector getMinVector():
-        return min
-    }
+     def getMinVector(self):
+        return self.min
 
 #/**
 #* Set the label description
 #* @param description the new description
 #*/
-      setLabelDescription(DataSetDescription description):
-        labelDescription = description
-    }
+     def setLabelDescription(self, description):
+        if not isinstance(description, DataSetDescription):
+            raise TypeError('Expected DatasetDescription got ' + str(description.__class__))
+        self.labelDescription = description
 
 #/**
 #* Set the max
 #* @param instance the new max
 #*/
-      setMaxVector(Vector instance):
-        max = instance
-    }
+     def setMaxVector(self, instance):
+        if not isinstance(instance, Vector):
+            raise TypeError("Expected Vector got " + str(instance.__class__))
+        self.max = instance
+    
 
 #/**
 #* Set the min
 #* @param instance the new min
 #*/
-      setMinVector(Vector instance):
-        min = instance
-    }
+     def setMinVector(self, instance):
+        if not isinstance(instance, Vector):
+            raise TypeError("Expected Vector got " + str(instance.__class__))
+        self.min = instance
+    
 
 #/**
 #* Set the types
 #* @param types the new types
 #*/
-      setAttributeTypes(AttributeType[] types):
+     def setAttributeTypes(self, types):
+        if not isinstance(types, list):
+            raise TypeError("Expected Vector got " + str(types.__class__))
         self.types = types
-    }
     
 #/**
 #* Induce from the given data set
 #* @param data the data set
 #*/
-      induceFrom(DataSet data):
-        boolean hasLabels = false
-        int i = 0
-        while (data.get(i) == null):
-            i++
-        }
+     def induceFrom(self, data):
+        if not isinstance(data, DataSet):
+            raise TypeError("Expected DataSet got " + str(data.__class__))
+        hasLabels = False
+        i = 0
+        while (data.get(i) is None):
+            i = i + 1
         if (i >= data.size()):
             return
-        }
-        if (max == null):
-            max = (Vector) data.get(i).getData().copy()
-        }
-        if (min == null):
-            min = (Vector) data.get(i).getData().copy()
-        }
-        if (types == null):
-            types = new AttributeType[data.get(i).size()]
-            Arrays.fill(types, AttributeType.BINARY)
-        }
-        for ( i < data.size() i++):
-            Instance cur = data.get(i)
-            if (cur == null):
+        
+        if (self.max is None):
+            self.max = data.get(i).getData().copy()
+        
+        if (self.min is None):
+            self.min = data.get(i).getData().copy()
+        
+        if (self.types is None):
+            self.types = [AttributeType.BINARY] * data.get(i).size() # Should fill up an array of the size with AttributeTypes(0)
+        
+        for k in range(i, data.size()):
+            cur = data.get(k)
+            if (cur is None):
                 continue
-            }
-            hasLabels = hasLabels || cur.getLabel() != null
-            max.maxEquals(cur.getData())
-            min.minEquals(cur.getData())
-            for (int j = 0 j < types.length j++):
-                if (types[j] == AttributeType.BINARY
-                        && cur.getContinuous(j) != 1 && cur.getContinuous(j) != 0):
-                            
-                    types[j] = AttributeType.DISCRETE
-                }
-                if (types[j] == AttributeType.DISCRETE
-                        && cur.getDiscrete(j) != cur.getContinuous(j)):
-                    types[j] = AttributeType.CONTINUOUS      
-                }
-            }
-        }
+            hasLabels = hasLabels or (not cur.getLabel() is None)
+            self.max.maxEquals(cur.getData())
+            self.min.minEquals(cur.getData())
+            for j in range(len(self.types)):
+                if ((self.types[j] == AttributeType.BINARY) and (cur.getContinuous(j) != 1) and (cur.getContinuous(j) != 0)):
+                    self.types[j] = AttributeType.DISCRETE
+                
+                if ((self.types[j] == AttributeType.DISCRETE) and (cur.getDiscrete(j) != cur.getContinuous(j))):
+                    self.types[j] = AttributeType.CONTINUOUS      
+
         if (hasLabels):
-            if (labelDescription == null):
-                labelDescription = new DataSetDescription()
-            }
-            labelDescription.induceFrom(data.getLabelDataSet())
-        }
-    }
-    
+            if (self.labelDescription is None):
+                self.labelDescription = DataSetDescription()
+            
+            self.labelDescription.induceFrom(data.getLabelDataSet())
+
 #/**
 #* @see java.lang.Object#toString()
 #*/
-     String toString():
-        String result = "Types : " + ABAGAILArrays.toString(types)
-        result += "\nMax : " + max
-        result += "\nMin : " + min
-        if (labelDescription != null):
-            result += "\nLabel Description:\n" + labelDescription
-        }
+     def toString(self):
+        result = "Types : " + ABAGAILArrays.toString(self.types)
+        result += "\nMax : " + self.max
+        result += "\nMin : " + self.min
+        if (not self.labelDescription is None):
+            result += "\nLabel Description:\n" + self.labelDescription
+        
         return result
-    }
-
-}
+   

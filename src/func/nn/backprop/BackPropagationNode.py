@@ -49,7 +49,7 @@ class BackPropagationNode(FeedForwardNode):
             weightedErrorSum = 0
             for i in range(getOutLinkCount()):
                 outLink = getOutLink(i)
-                weightedErrorSum += outLink.getWeightedOutError()
+                weightedErrorSum = weightedErrorSum + outLink.getWeightedOutError()
             
             setOutputError(weightedErrorSum)
             act = getActivationFunction()

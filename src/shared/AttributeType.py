@@ -5,53 +5,53 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class AttributeType {
+class AttributeType:
 #/**
 #* The binary type
 #*/
-     static final AttributeType BINARY = new AttributeType(1)   
-#/**
-#* The integer / discrete type
-#*/
-     static final AttributeType DISCRETE = new AttributeType(2)
-#/**
-#* The continuous type
-#*/
-     static final AttributeType CONTINUOUS = new AttributeType(3)
+     # static final AttributeType BINARY = new AttributeType(1)   
+# #/**
+# #* The integer / discrete type
+# #*/
+     # static final AttributeType DISCRETE = new AttributeType(2)
+# #/**
+# #* The continuous type
+# #*/
+     # static final AttributeType CONTINUOUS = new AttributeType(3)
     
 #/**
 #* The type of the attribute
 #*/
-    int type
+   # int type
     
 #/**
 #* Make a new attribute type
 #* @param t the type of the attribute
 #*/
-    AttributeType(int t):
-        type = t
-    }
+    def __init__(self, t):
+        self.type = t
     
 #/**
 #* @see java.lang.Object#equals(java.lang.Object)
 #*/
-     boolean equals(Object o):
-        return ((AttributeType) o).type == type
-    }
+    def equals(self, o):
+        return o.type == self.type
     
+    def BINARY():
+        return AttributeType(1)
+    def DISCRETE():
+        return AttributeType(2)
+    def CONTINUOUS():
+        return AttributeType(3)
 #/**
 #* @see java.lang.Object#toString()
 #*/
-     String toString():
-        if (self == BINARY):
+    def toString(self):
+        if (self.type == 1):
             return "BINARY"
-        } else if (self == DISCRETE):
+        if (self.type == 2):
             return "DISCRETE"
-        } else if (self == CONTINUOUS):
+        if (self.type == 3):
             return "CONTINUOUS"
-        } else {
-            return "UNKNOWN"
-        }
-    }
-
-}
+        return "UNKNOWN"
+        

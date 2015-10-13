@@ -1,4 +1,6 @@
-
+from src.util.ABAGAILArrays import *
+from src.dist.AbstractDistribution import *
+from src.shared.Instance import *
 
 #/**
 #* A distribution of all of the permutations
@@ -6,57 +8,58 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class DiscretePermutationDistribution extends AbstractDistribution {
+class DiscretePermutationDistribution (AbstractDistribution):
 #/**
 #* The size of the data
 #*/
-    int n
+    #int n
     
 #/**
 #* The probability
 #*/
-    double p
+    #double p
     
 #/**
 #* Make a new discrete permutation distribution
 #* @param n the size of the data
 #*/
-     DiscretePermutationDistribution(int n):
+     def __init__(self, n):
         self.n = n
-        p = n
-        for (int i = n - 1 i >= 1 i--):
-            p *= i
-        }
-        p = 1 / p
-    }
+        self.p = n
+        #for (int i = n - 1 i >= 1 i--): # not entirely sure why you would start at the end and multiply decremented. I'm just going to do nrmal
+        for i in range(1,n):
+            self.p = self.p * i
+        self.p = 1.0 / self.p
+    
 
 #/**
 #* @see dist.Distribution#probabilityOf(shared.Instance)
 #*/
-     double p(Instance i):
+     def p(self, i):
         return p
-    }
+    
 
 #/**
 #* @see dist.Distribution#generateRandom(shared.Instance)
 #*/
-     Instance sample(Instance ignored):
-        double[] d  = ABAGAILArrays.dindices(n)
-        ABAGAILArrays.permute(d)
-        return new Instance(d)
-    }
+     def sample(self, ignored):
+        temp = ABAGAILArrays()
+        d  = temp.dindices(self.n)
+        temp.permute(d)
+        return Instance(ds = d)
+    
 
 #/**
 #* @see dist.Distribution#generateMostLikely(shared.Instance)
 #*/
-     Instance mode(Instance ignored):
+     def mode(self, ignored):
         return sample(ignored)
-    }
+    
 
 #/**
 #* @see dist.Distribution#estimate(shared.DataSet)
 #*/
-      estimate(DataSet observations):
+     def estimate(self, observations):
+        raise ImplementationError("This was never implemented")
         return
-    }
-}
+    

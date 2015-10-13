@@ -1,3 +1,4 @@
+import random
 from src.func.nn.Neuron import *
 #/**
 # * A link between two nodes in a neural network
@@ -10,12 +11,13 @@ class Link:
      # * Create a linke
      # * initializes the weight to a random value
      # */
-   def __init__(self, random = 0, inNode = Neuron(), outNode = Neuron(), weight = 0.0):
-      self.random = random #Random() # Update
+   def __init__(self, inNode = Neuron(), outNode = Neuron(), weight = 0.0):
+      #self.random =  #Random() # Update
+      #random.nextDouble() * 2 - 1
       self.inNode = inNode
       self.outNode = outNode
-      self.weight = weight #self.random.nextDouble() * 2 - 1
-        
+      self.weight = random.random() * 2 - 1 #self.random.nextDouble() * 2 - 1
+      #print "link.random_weight: "  + str(self.weight)
 #   /**
 #    * Get the in node
 #    * @return the node
@@ -91,4 +93,4 @@ class Link:
 #    * @param delta the change in weight
 #    */
    def changeWeight(self, delta):
-      self.weight += delta
+      self.weight = self.weight + delta

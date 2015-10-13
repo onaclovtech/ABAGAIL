@@ -16,6 +16,7 @@ class OptimizationAlgorithm:
 #     * @return the problem
 #     */
     def getOptimizationProblem(self):
+        #print "OA" + str(self.op)
         return self.op
     
 #    /**

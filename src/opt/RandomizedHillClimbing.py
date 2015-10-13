@@ -19,8 +19,8 @@ class RandomizedHillClimbing(OptimizationAlgorithm):
 #     */
     def train(self):
         hcp = self.getOptimizationProblem()
-        #print self.cur
-        neigh = hcp.neighbor.neighbor(self.cur) # This seems very odd, we call the neighbor variable then call neighbor on it...oddness
+        #print "Randomizedhc" + str(hcp.__class__)
+        neigh = hcp.neighbor(self.cur) # This seems very odd, we call the neighbor variable then call neighbor on it...oddness
                                                 # Not entirely sure how it worked in java
         neighVal = hcp.value(neigh)
         if (neighVal > self.curVal):

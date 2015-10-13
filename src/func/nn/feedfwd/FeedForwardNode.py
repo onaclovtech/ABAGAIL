@@ -58,6 +58,7 @@ class FeedForwardNode(Neuron):
       if (self.getInLinkCount() > 0):
          sum = 0
          for i in range(self.getInLinkCount()):
+            #print "FFN.FF.self.getInLink(i)" + str(self.getInLink(i))
             sum = sum + self.getInLink(i).getWeightedInValue()
          self.weightedInputSum = sum
          #print 'FeedForwardNode.feedforward.self.activationFunction.__class__' + str(self.activationFunction.__class__)

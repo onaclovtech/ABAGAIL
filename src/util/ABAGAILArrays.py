@@ -1,3 +1,4 @@
+import random
 
 
 #/**
@@ -240,11 +241,11 @@ class ABAGAILArrays:
 # #* @param i the first index
 # #* @param j the second index
 # #*/
-     # static  swap(int[] a, int i, int j):
-        # int temp = a[i]
-        # a[i] = a[j]
-        # a[j] = temp
-    # }
+     def  swap(self, a,  i,  j):
+        temp = a[i]
+        a[i] = a[j]
+        a[j] = temp
+    
     
 #/**
 #* Search an array for a value
@@ -326,10 +327,18 @@ class ABAGAILArrays:
         # quicksort(a, indices, 0, a.length)
     # }
     
-# #/**
-# #* Permute the given array
-# #* @param a the array to permute
-# #*/
+#/**
+#* Permute the given array
+#* @param a the array to permute
+#*/
+     def  permute(self, a):
+        for i in reversed(range(len(a)-1)):
+            j = random.randint(0,i + 1)
+            self.swap(a, i, j)
+
+#* Permute the given array
+#* @param a the array to permute
+#*/
      # static  permute(int[] a):
         # for (int i = a.length-1 i > 0 i--):
             # int j = random.nextInt(i + 1)
@@ -361,17 +370,13 @@ class ABAGAILArrays:
         # return indices
     # }
     
-# #/**
-# #* Get double indices of a size
-# #* @param size the size of the indices to return
-# #* @return the indices array
-# #*/
-     # static double[] dindices(int size):
-        # double[] indices = new double[size]
-        # for (int i = 0 i < indices.length i++):
-            # indices[i] = i
-        # }
-        # return indices
-    # }
-
-# }
+#/**
+#* Get double indices of a size
+#* @param size the size of the indices to return
+#* @return the indices array
+#*/
+     def dindices(self, size):
+        indices = [None] * size
+        for i in range(len(indices)):
+            indices[i] = i
+        return indices

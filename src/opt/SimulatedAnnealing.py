@@ -26,7 +26,7 @@ class SimulatedAnnealing(OptimizationAlgorithm):
 #     */
     def train(self):
         p = self.getOptimizationProblem()
-        neigh = p.neighbor.neighbor(self.cur)
+        neigh = p.neighbor(self.cur)
         neighVal = p.value(neigh)
         if (neighVal > self.curVal or (random.random() < math.exp((neighVal - self.curVal) / self.t))):
             self.curVal = neighVal

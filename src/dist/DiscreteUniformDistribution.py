@@ -1,4 +1,5 @@
-
+from src.dist.AbstractDistribution import *
+import random
 
 #/**
 #* A distribution of all of the permutations
@@ -6,59 +7,69 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class DiscreteUniformDistribution extends AbstractDistribution {
+class DiscreteUniformDistribution (AbstractDistribution):
 #/**
 #* The ranges of the data
 #*/
-    int[] n
+   # int[] n
     
 #/**
 #* The probability
 #*/
-    double p
+   # double p
     
 #/**
 #* Make a new discrete permutation distribution
 #* @param n the size of the data
 #*/
-     DiscreteUniformDistribution(int[] n):
+     def __init__(self, n):
+        if not isinstance(n, list):
+            raise TypeError("Expected a list got " + str(n.__class__))
         self.n = n
-        p = n[0]
-        for (int i = 1 i < n.length i++):
-            p *= n[i]
-        }
-        p = 1 / p
-    }
+        self.p = n[0] #doesn't setting self.p to 1 and then looping through from i = 0 to length accomplish the same thing?
+        for i in range(1, len(n)):
+            self.p *= n[i]
+        
+        self.p = 1 / self.p
+    
 
 #/**
 #* @see dist.Distribution#probabilityOf(shared.Instance)
 #*/
-     double p(Instance i):
+     def p(self, i): # i is unused...this is really weird. may need to get rid of all together
+        if not isinstance(i, Instance):
+            raise TypeError("Expected Instance got " + str(i.__class__))
         return p
-    }
 
 #/**
 #* @see dist.Distribution#generateRandom(shared.Instance)
 #*/
-     Instance sample(Instance ignored):
-        double[] d  = new double[n.length]
-        for (int i = 0 i < d.length i++):
-            d[i] = random.nextInt(n[i])
-        }
-        return new Instance(d)
-    }
+     def sample(self, ignored): # Strange that we pass anything in. also the type check is probably unnecessary
+        if not isinstance(ignored, Instance):
+            raise TypeError("Expected Instance got " + str(ignored.__class__))
+        d  = [None] * len(self.n)
+        for i in range(len(d)):
+            d[i] = random.randint(0,self.n[i])
+        
+        return Instance(ds = d)
+    
 
 #/**
 #* @see dist.Distribution#generateMostLikely(shared.Instance)
 #*/
-     Instance mode(Instance ignored):
+     def mode(self, ignored):
+        if not isinstance(ignored, Instance):
+            raise TypeError("Expected Instance got " + str(ignored.__class__))
         return sample(ignored)
-    }
+    
 
 #/**
 #* @see dist.Distribution#estimate(shared.DataSet)
 #*/
-      estimate(DataSet observations):
+     # Does Nothing, Why is this being called?
+     def estimate(self, observations):
+        if not isinstance(observations, DataSet):
+            raise TypeError("Expected DataSet got " + str(observations.__class__))
+        raise ImplementationError("Not Implemented")
         return
-    }
-}
+    

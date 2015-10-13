@@ -1,3 +1,4 @@
+from src.opt.example.TravelingSalesmanEvaluationFunction import *
 
 
 #/**
@@ -7,32 +8,31 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class TravelingSalesmanSortEvaluationFunction extends TravelingSalesmanEvaluationFunction {
+class TravelingSalesmanSortEvaluationFunction (TravelingSalesmanEvaluationFunction):
+
 
 #/**
 #* Make a new traveling salesman evaluation function
 #* @param points the points at which the cities are located
 #*/
-     TravelingSalesmanSortEvaluationFunction(double[][] points):
-        super(points)
-    }
+     def __init__(self, points):
+        TravelingSalesmanEvaluationFunction.__init__(self,points)
+    
 
 #/**
 #* @see opt.EvaluationFunction#value(opt.OptimizationData)
 #*/
-     double value(Instance d):
-        double[] ddata = new double[d.size()]
-        for (int i = 0 i < ddata.length i++):
+     def value(d):
+        ddata = [None] * d.size()
+        for i in range(len(ddata)):
             ddata[i] = d.getContinuous(i)
-        }
-        int[] order = ABAGAILArrays.indices(d.size())
+
+        order = ABAGAILArrays.indices(d.size())
         ABAGAILArrays.quicksort(ddata, order)
-        double distance = 0
-        for (int i = 0 i < order.length - 1 i++):
+        distance = 0.0
+        for i in range(len(order) - 1):
             distance += getDistance(order[i], order[i+1])
-        }
+        
         distance += getDistance(order[order.length - 1], order[0])
         return 1/distance
-    }
 
-}

@@ -56,7 +56,7 @@ class BackPropagationLink(Link):
 #* @param error the error to add
 #*/
    def addError(self, error):
-        self.error += error
+        self.error = self.error + error
     
     
 #/**

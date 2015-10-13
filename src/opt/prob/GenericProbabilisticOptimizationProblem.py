@@ -1,3 +1,4 @@
+from src.opt.GenericOptimizationProblem import *
 #/**
 # * 
 # * @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -12,7 +13,7 @@ class GenericProbabilisticOptimizationProblem(GenericOptimizationProblem):
 #     * @param dist the initial parameter distribution
 #     * @param fact the distribution factory
 #     */
-    def __init__(EvaluationFunction eval, Distribution dist, Distribution d):
+    def __init__(self, eval, dist, d):
         self.eval = eval
         self.dist = dist
         self.dist = d

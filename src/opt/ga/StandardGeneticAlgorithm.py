@@ -38,7 +38,7 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
         sum = 0
         for i in range(len(probabilities)):
             probabilities[i] = self.values[i]
-            sum += probabilities[i]
+            sum = sum + probabilities[i]
         if (math.isinf(sum)):
             return sum
 
@@ -67,9 +67,9 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
         # mutate
         for i in range(self.toMutate):
             j = random.randint(0,len(newPopulation)-1)
-            print "Standard.Genetic.Algorithm.ga: " + str(ga.__class__)
-            print "Standard.Genetic.Algorithm.ga.mutate: " + str(ga.mutate.__dict__)
-            print "Standard.Genetic.Algorithm.newPopulation: " + str(newPopulation[j])
+            #print "Standard.Genetic.Algorithm.ga: " + str(ga.__class__)
+            #print "Standard.Genetic.Algorithm.ga.mutate: " + str(ga.mutate.__dict__)
+            #print "Standard.Genetic.Algorithm.newPopulation: " + str(newPopulation[j])
             ga.mutate.mutate(newPopulation[j])
             newValues[j] = -1
             

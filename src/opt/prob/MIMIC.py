@@ -1,3 +1,4 @@
+from src.opt.OptimizationAlgorithm import *
 #/**
 # * Based on the MIMIC algorithm
 # * J. S. De Bonet, C. L. Isbell, and P. Viola (1997). 
@@ -16,53 +17,52 @@ class MIMIC(OptimizationAlgorithm):
 #     * @param stoppingCount the minimum number of good samples needed to continue
 #     * @param op the problem
 #     */
-    def __init__(int samples, int tokeep, ProbabilisticOptimizationProblem op):
-        super(op);
-        this.tokeep = tokeep;
-        this.samples = samples;
-        Instance[] data = new Instance[samples];
-        for (int i = 0; i < data.length; i++):
-            data[i] = op.random();
-        distribution = op.getDistribution();
-        distribution.estimate(new DataSet(data));
+    def __init__(self, samples, tokeep,  op):
+        OptimizationAlgorithm.__init__(self,op)
+        self.tokeep = tokeep
+        self.samples = samples
+        data = [None] * samples
+        for i in range(len(data)):
+            data[i] = self.op.random()
+        self.distribution = self.op.getDistribution()
+        self.distribution.estimate(DataSet(ds = data))
 
 #    /**
 #     * @see opt.OptimizationAlgorithm#getOptimal()
 #     */
-    def getOptimal():
-        OptimizationProblem op = getOptimizationProblem();
-        Instance[] data = new Instance[samples];
-        for (int i = 0; i < data.length; i++):
-            data[i] = distribution.sample(null)
-        
-        double bestVal = op.value(data[0]);
-        Instance best = data[0];
-        for (int i = 1; i < data.length; i++):
-            double value = op.value(data[i]);
+    def getOptimal(self):
+        op = getOptimizationProblem()
+        data = [None] * samples
+        for i in range(len(data)):
+            data[i] = distribution.sample(None)
+        bestVal = op.value(data[0])
+        best = data[0]
+        for i in range(len(data)):
+            value = op.value(data[i])
             if (value > bestVal):
-                bestVal = value;
-                best = data[i];
+                bestVal = value
+                best = data[i]
         return best;
 
 #    /**
 #     * @see shared.Trainer#train()
 #     */
-    def train():
-        ProbabilisticOptimizationProblem op = (ProbabilisticOptimizationProblem) getOptimizationProblem();
-        Instance[] data = new Instance[samples];
-        for (int i = 0; i < data.length; i++):
-            data[i] = distribution.sample(null)
-        double[] values = new double[data.length];
-        for (int i = 0; i < data.length; i++):
-            values[i] = op.value(data[i])
-        double[] temp = new double[values.length];
-        System.arraycopy(values, 0, temp, 0, temp.length);
-        double cutoff = ABAGAILArrays.randomizedSelect(temp, temp.length - tokeep);
-        int j = 0;
-        Instance[] kept = new Instance[tokeep];
-        for (int i = 0; i < data.length && j < kept.length; i++):
-            if (values[i] >= cutoff):
-                kept[j] = data[i];
-                j++;
-        distribution.estimate(new DataSet(kept))
-        return cutoff
+    # def train(self):
+        # op = getOptimizationProblem();
+        # data = [None] * samples
+        # for i in range(len(data)):
+            # data[i] = distribution.sample(None)
+        # values = [None] * len(data)
+        # for i in range(len(data)):
+            # values[i] = op.value(data[i])
+        # double[] temp = new double[values.length];
+        # System.arraycopy(values, 0, temp, 0, temp.length);
+        # double cutoff = ABAGAILArrays.randomizedSelect(temp, temp.length - tokeep);
+        # int j = 0;
+        # Instance[] kept = new Instance[tokeep];
+        # for (int i = 0; i < data.length && j < kept.length; i++):
+            # if (values[i] >= cutoff):
+                # kept[j] = data[i];
+                # j++;
+        # distribution.estimate(new DataSet(kept))
+        # return cutoff
