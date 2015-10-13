@@ -5,41 +5,35 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class FourPeaksEvaluationFunction (EvaluationFunction):
+class FourPeaksEvaluationFunction:
 #/**
 #* The t value
 #*/
-    int t
+#    int t
     
 #/**
 #* Make a new four peaks function
 #* @param t the t value
 #*/
-     FourPeaksEvaluationFunction(int t):
+     def __init__(self, t):
         self.t = t
-    }
 
 #/**
 #* @see opt.EvaluationFunction#value(opt.OptimizationData)
 #*/
-     double value(Instance d):
-        Vector data = d.getData()
-        int i = 0
-        while (i < data.size() && data.get(i) == 1):
-            i++
-        }
-        int head = i
+     def value(self, d):
+        data = d.getData()
+        i = 0
+        while (i < data.size() and data.get(i) == 1):
+            i = i + 1
+        head = i
         i = data.size() - 1
-        while (i >= 0 && data.get(i) == 0):
-            i--
-        }
-        int tail = data.size() - 1 - i
-        int r = 0
-        if (head > t && tail > t):
+        while (i >= 0 and data.get(i) == 0):
+            i = i - 1 
+        
+        tail = data.size() - 1 - i
+        r = 0
+        if (head > self.t and tail > self.t):
             r = data.size()
-        }
-        return Math.max(tail, head) + r
-    }
-    
-    
-}
+        
+        return max(tail, head) + r

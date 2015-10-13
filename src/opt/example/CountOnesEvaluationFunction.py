@@ -5,18 +5,14 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class CountOnesEvaluationFunction (EvaluationFunction):
+class CountOnesEvaluationFunction:
 #/**
 #* @see opt.EvaluationFunction#value(opt.OptimizationData)
 #*/
-     double value(Instance d):
-        Vector data = d.getData()
-        double val = 0
-        for (int i = 0 i < data.size() i++):
+     def value(self, d):
+        data = d.getData()
+        val = 0.0
+        for i  in range(data.size()):
             if (data.get(i) == 1):
-                val++
-            }
-        }
+                val = val + 1
         return val
-    }
-}

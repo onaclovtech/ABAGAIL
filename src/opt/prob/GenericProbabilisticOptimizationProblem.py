@@ -13,10 +13,9 @@ class GenericProbabilisticOptimizationProblem(GenericOptimizationProblem):
 #     * @param dist the initial parameter distribution
 #     * @param fact the distribution factory
 #     */
-    def __init__(self, eval, dist, d):
-        self.eval = eval
+    def __init__(self, eval, initial, dist):
+        GenericOptimizationProblem.__init__(self,eval,initial)
         self.dist = dist
-        self.dist = d
 
 #    /**
 #     * @see opt.prob.ProbabilisticOptimizationProblem#getDistribution()

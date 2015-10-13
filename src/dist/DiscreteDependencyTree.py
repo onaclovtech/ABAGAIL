@@ -1,5 +1,8 @@
 from src.dist.AbstractDistribution import *
 from src.shared.DataSetDescription import *
+from src.util.linalg.DenseVector import *
+from src.shared.DataSet import *
+from src.dist.DiscreteDependencyTreeRootNode import *
 import math
 #/**
 #* A discrete dependency distribution
@@ -40,8 +43,8 @@ class DiscreteDependencyTree(AbstractDistribution):
             if not isinstance(ranges, list):
                raise TypeError("Expecting list got" + str(m.__class__))
             self.description = DataSetDescription()
-            self.description.setMinVector(DenseVector(size = ranges.length))
-            max = DenseVector(size = ranges.length)
+            self.description.setMinVector(DenseVector(size = len(ranges)))
+            max = DenseVector(size = len(ranges))
             for i in range(max.size()):
                max.set(i, ranges[i] - 1)
             self.description.setMaxVector(max)
@@ -91,7 +94,7 @@ class DiscreteDependencyTree(AbstractDistribution):
         else:
             if (observations.getDescription() == null):
                 observations.setDescription(DataSetDescription(observations))
-        mutualI = calculateMutualInformation(observations)
+        mutualI = self.calculateMutualInformation(observations)
         # construct the graph
         rg = buildDirectedMST(observations, mutualI)
         # make the dependency tree

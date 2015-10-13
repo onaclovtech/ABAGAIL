@@ -1,38 +1,32 @@
-import sys
-import os
-import time
+# import sys
+#from src.os
+#from src.time
+import random
 
-import java.io.FileReader as FileReader
-import java.io.File as File
-import java.lang.String as String
-import java.lang.StringBuffer as StringBuffer
-import java.lang.Boolean as Boolean
-import java.util.Random as Random
-
-import dist.DiscreteDependencyTree as DiscreteDependencyTree
-import dist.DiscreteUniformDistribution as DiscreteUniformDistribution
-import dist.Distribution as Distribution
-import opt.DiscreteChangeOneNeighbor as DiscreteChangeOneNeighbor
-import opt.EvaluationFunction as EvaluationFunction
-import opt.GenericHillClimbingProblem as GenericHillClimbingProblem
-import opt.HillClimbingProblem as HillClimbingProblem
-import opt.NeighborFunction as NeighborFunction
-import opt.RandomizedHillClimbing as RandomizedHillClimbing
-import opt.SimulatedAnnealing as SimulatedAnnealing
-import opt.example.FourPeaksEvaluationFunction as FourPeaksEvaluationFunction
-import opt.ga.CrossoverFunction as CrossoverFunction
-import opt.ga.SingleCrossOver as SingleCrossOver
-import opt.ga.DiscreteChangeOneMutation as DiscreteChangeOneMutation
-import opt.ga.GenericGeneticAlgorithmProblem as GenericGeneticAlgorithmProblem
-import opt.ga.GeneticAlgorithmProblem as GeneticAlgorithmProblem
-import opt.ga.MutationFunction as MutationFunction
-import opt.ga.StandardGeneticAlgorithm as StandardGeneticAlgorithm
-import opt.ga.UniformCrossOver as UniformCrossOver
-import opt.prob.GenericProbabilisticOptimizationProblem as GenericProbabilisticOptimizationProblem
-import opt.prob.MIMIC as MIMIC
-import opt.prob.ProbabilisticOptimizationProblem as ProbabilisticOptimizationProblem
-import shared.FixedIterationTrainer as FixedIterationTrainer
-import opt.example.ContinuousPeaksEvaluationFunction as ContinuousPeaksEvaluationFunction
+from src.dist.DiscreteDependencyTree import *
+from src.dist.DiscreteUniformDistribution import *
+#from src.dist.Distribution import *
+from src.opt.DiscreteChangeOneNeighbor import *
+#from src.opt.EvaluationFunction import *
+from src.opt.GenericHillClimbingProblem import *
+#from src.opt.HillClimbingProblem import *
+#from src.opt.NeighborFunction import *
+from src.opt.RandomizedHillClimbing import *
+from src.opt.SimulatedAnnealing import *
+#from src.opt.example.FourPeaksEvaluationFunction import *
+# from src.opt.ga.CrossoverFunction import *
+from src.opt.ga.SingleCrossOver import *
+from src.opt.ga.DiscreteChangeOneMutation import *
+from src.opt.ga.GenericGeneticAlgorithmProblem import *
+# from src.opt.ga.GeneticAlgorithmProblem import *
+# from src.opt.ga.MutationFunction import *
+from src.opt.ga.StandardGeneticAlgorithm import *
+# from src.opt.ga.UniformCrossOver import *
+from src.opt.prob.GenericProbabilisticOptimizationProblem import *
+from src.opt.prob.MIMIC import *
+# from src.opt.prob.ProbabilisticOptimizationProblem import *
+from src.shared.FixedIterationTrainer import *
+from src.opt.example.ContinuousPeaksEvaluationFunction import *
 from array import array
 
 
@@ -45,7 +39,7 @@ Commandline parameter(s):
 N=60
 T=N/10
 fill = [2] * N
-ranges = array('i', fill)
+ranges = list(array('i', fill))
 
 ef = ContinuousPeaksEvaluationFunction(T)
 odd = DiscreteUniformDistribution(ranges)

@@ -3,7 +3,7 @@
 # To make a plot of the route, write the points at these indexes 
 # to a file and plot them in your favorite tool.
 import random
-
+from array import array
 from src.dist.DiscreteDependencyTree import *
 from src.dist.DiscreteUniformDistribution import *
 from src.dist.DiscretePermutationDistribution import *
@@ -98,7 +98,7 @@ print path
 # for mimic we use a sort encoding
 ef = TravelingSalesmanSortEvaluationFunction(points);
 fill = [N] * N
-ranges = array('i', fill)
+ranges = list(array('i', fill))
 odd = DiscreteUniformDistribution(ranges);
 df = DiscreteDependencyTree(.1, ranges); 
 pop = GenericProbabilisticOptimizationProblem(ef, odd, df);
@@ -111,7 +111,7 @@ print "Route:"
 path = []
 optimal = mimic.getOptimal()
 fill = [0] * optimal.size()
-ddata = array('d', fill)
+ddata = list(array('d', fill))
 for i in range(0,len(ddata)):
     ddata[i] = optimal.getContinuous(i)
 temp = ABAGAILArrays()

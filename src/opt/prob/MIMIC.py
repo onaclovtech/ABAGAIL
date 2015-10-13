@@ -1,4 +1,5 @@
 from src.opt.OptimizationAlgorithm import *
+from src.shared.DataSet import *
 #/**
 # * Based on the MIMIC algorithm
 # * J. S. De Bonet, C. L. Isbell, and P. Viola (1997). 
@@ -25,7 +26,7 @@ class MIMIC(OptimizationAlgorithm):
         for i in range(len(data)):
             data[i] = self.op.random()
         self.distribution = self.op.getDistribution()
-        self.distribution.estimate(DataSet(ds = data))
+        self.distribution.estimate(DataSet(data))
 
 #    /**
 #     * @see opt.OptimizationAlgorithm#getOptimal()

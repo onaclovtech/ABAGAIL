@@ -1,4 +1,5 @@
 from src.dist.AbstractDistribution import *
+from src.shared.Instance import *
 import random
 
 #/**
@@ -45,8 +46,8 @@ class DiscreteUniformDistribution (AbstractDistribution):
 #* @see dist.Distribution#generateRandom(shared.Instance)
 #*/
      def sample(self, ignored): # Strange that we pass anything in. also the type check is probably unnecessary
-        if not isinstance(ignored, Instance):
-            raise TypeError("Expected Instance got " + str(ignored.__class__))
+        # if not isinstance(ignored, Instance):
+            # raise TypeError("Expected Instance got " + str(ignored.__class__))
         d  = [None] * len(self.n)
         for i in range(len(d)):
             d[i] = random.randint(0,self.n[i])

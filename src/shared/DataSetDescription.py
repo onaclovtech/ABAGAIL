@@ -1,5 +1,5 @@
 from src.shared.AttributeType import *
-
+from src.util.linalg.Vector import *
 
 #/**
 #* A data set description contains information
@@ -55,7 +55,7 @@ class DataSetDescription:
             if not isinstance(labelDescription, DataSetDescription):
                 raise TypeError("Expected Vector got " + str(types.__class__))                   
             self.labelDescription = labelDescription 
-        if not DataSet is None:
+        if not dataSet is None:
             induceFrom(dataSet)
 
 

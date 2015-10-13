@@ -10,9 +10,9 @@ class GenericOptimizationProblem:
 #     * @param dist the initial distribution
 #     * @param eval the evaluation function
 #     */
-    def __init__(self, eval, dist):
+    def __init__(self, eval, initial):
         # Check types eventually EvaluationFunction eval, Distribution dist
-        self.initial = dist;
+        self.initial = initial;
         self.eval = eval;
     
 
