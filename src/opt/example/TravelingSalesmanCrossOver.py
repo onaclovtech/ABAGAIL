@@ -39,21 +39,23 @@ class TravelingSalesmanCrossOver:
             nextb[b.getDiscrete(i)] = b.getDiscrete(i+1)
         
         nexta[a.getDiscrete(a.size() - 1)] = a.getDiscrete(0)
-        nexta[b.getDiscrete(b.size() - 1)] = b.getDiscrete(0)
+        nextb[b.getDiscrete(b.size() - 1)] = b.getDiscrete(0)
         visited = [None] * a.size()
         child = [None] * a.size()
-        child[0] = random.randint(0,a.size())
+        child[0] = random.randint(0,a.size() - 1)
         visited[child[0]] = True
         for i in range(len(child)-1): #Is -1 necessary?
             cur = child[i]
             na = nexta[cur]
             nb = nextb[cur]
             next = -1
+            if na is None or nb is None:
+                raise TypeError('Expected Int got ' + str(na.__class__) + str(nb.__class__))
             if (not visited[na] is None and visited[nb] is None):
                 next = nb
-            elif (visited[nb] and not visited[na]):
+            elif (not visited[nb] is None and visited[na] is None):
                    next = na
-            elif (not visited[na] and not visited[nb]):
+            elif (visited[na] is None and visited[nb] is None):
                 if (self.eval.getDistance(cur, na) < self.eval.getDistance(cur, nb)):
                     next = na
                 else:

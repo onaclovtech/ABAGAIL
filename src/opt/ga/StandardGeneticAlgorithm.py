@@ -70,7 +70,7 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
             #print "Standard.Genetic.Algorithm.ga: " + str(ga.__class__)
             #print "Standard.Genetic.Algorithm.ga.mutate: " + str(ga.mutate.__dict__)
             #print "Standard.Genetic.Algorithm.newPopulation: " + str(newPopulation[j])
-            ga.mutate.mutate(newPopulation[j])
+            ga.mutate(newPopulation[j])
             newValues[j] = -1
             
         # calculate the values
@@ -80,7 +80,7 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
         # the generation
         self.population = newPopulation
         self.values = newValues
-        return sum / self.populationSize
+        return float(sum) / self.populationSize
 
 #    /**
 #     * @see opt.OptimizationAlgorithm#getOptimalData()
