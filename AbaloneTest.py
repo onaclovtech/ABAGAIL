@@ -99,7 +99,7 @@ class AbaloneTest:
                 print "abalonetest.train.network.getOutputValues(): " + str(network.getOutputValues().toString())
                 example = Instance(data = network.getOutputValues())
                 example.setLabel(Instance(data = network.getOutputValues()))
-                error += self.measure.value(output, example)
+                error = error + self.measure.value(output, example)
             
 
             res.append(error)
@@ -131,7 +131,7 @@ class AbaloneTest:
             else:
                attributes.append(row[:-1] + [row[-1]] + [1])
             
-      instances = [None] * 10#len(attributes)
+      instances = [None] * 100#len(attributes)
 
       for i in range(len(instances)):
          instances[i] = Instance(ds = attributes[i][:-2])
