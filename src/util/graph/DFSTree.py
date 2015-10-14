@@ -1,46 +1,39 @@
-
+from src.util.graph.Tree import *
 #/**
 #* A class for producing a tree traversal
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class DFSTree (GraphTransformation):
+class DFSTree:
 #/**
 #* Whether or not a node has been visited
 #*/
-    boolean[] visited
-
+ #   boolean[] visited
+     def __init__(self):
+        self.visited = []
 #/**
 #* @see graph.GraphTransform#transform(graph.Graph)
 #*/
-     Graph transform(Graph g):
-        visited = new boolean[g.getNodeCount()]
-        for (int i = 0 i < visited.length i++):
-            visited[i] = false
-        }
-        dfs(g.getNode(0))
-        Tree result = new Tree(g.getNode(0))
+     def transform(self, g):
+        self.visited = [False] * g.getNodeCount()
+        self.dfs(g.getNode(0))
+        result = Tree(g.getNode(0))
         result.setNodes(g.getNodes())
-        visited = null
+        self.visited = []
         return result
-    }
+    
     
 #/**
 #* Perform a depth first search on the graph
 #* @param g the graph to search
 #*/
-     dfs(Node n):
-        visited[n.getLabel()] = true
-        for (int i = 0 i < n.getEdgeCount() i++):
-            Edge edge = n.getEdge(i)
-            Node other = edge.getOther(n)
-            if (visited[other.getLabel()]):
-                n.removeEdge(i)
-                i--
-            } else {
-                dfs(other)
-            }
-        }
-    }
-
-}
+     def dfs(self, n):
+        self.visited[n.getLabel()] = True
+        for i in range(n.getEdgeCount()):
+            edge = n.getEdge(i)
+            other = edge.getOther(n)
+            if (self.visited[other.getLabel()]):
+                n.removeEdge(i = i)
+                i = i - 1
+            else:
+                self.dfs(other)

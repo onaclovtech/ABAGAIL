@@ -1,5 +1,3 @@
-
-
 #/**
 #* A node in a graph
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
@@ -27,32 +25,35 @@ class Node:
 #* Add a edge
 #* @param e the edge to add
 #*/
-      # addEdge(Edge e):
-        # edges.add(e)
-    # }
+    def addEdge(self,e):
+        self.edges.append(e)
     
 # #/**
 # #* Get the edge count
 # #* @return the edge count
 # #*/
-     # int getEdgeCount():
-        # return edges.size()
+    def getEdgeCount(self):
+        return len(self.edges)
     # }
     
 # #/**
 # #* Remove an edge
 # #* @param i the edge to remove
 # #*/
-      # removeEdge(int i):
-        # edges.remove(i)
-    # }
+#    def removeEdge(self, i, edge):
+#        self.edges.remove(i)
+#    # }
     
 # #/**
 # #* Remove an edge
 # #* @param edge the edge to remove
 # #*/
-      # removeEdge(Edge edge):
-        # edges.remove(edge)
+    def removeEdge(self, i=-1, edge= None):
+        if not edge is None:
+            self.edges.remove(edge)
+        elif i != -1:
+            self.edges.pop(i)
+            
     # }
     
 # #/**
@@ -60,22 +61,23 @@ class Node:
 # #* @param i the edge to get
 # #* @return the edge
 # #*/
-     # Edge getEdge(int i):
-        # return (Edge) edges.get(i)
+    def getEdge(self, i):
+        #print "Node.getEdge" + str(self.edges[i])
+        return self.edges[i] # cast< (Edge) I suspect I need a [i] instead of get(i) 
     # }
     
     
-# #/**
-# #* Connect to another node
-# #* @param other the other node
-# #* @param link the link
-# #*/
-      # connect(Node other, Edge link):
-        # link.setA(self)
-        # link.setB(other)
-        # edges.add(link)
-        # other.addEdge(link)
-    # }
+#/**
+#* Connect to another node
+#* @param other the other node
+#* @param link the link
+#*/
+    def connect(self, other, link):
+        link.setA(self)
+        link.setB(other)
+        self.edges.append(link)
+        other.addEdge(link)
+    
     
 # #/**
 # #* Connect to another node
@@ -92,32 +94,31 @@ class Node:
 # #* Get the generic label
 # #* @return the label
 # #*/
-     # int getLabel():
-        # return label
+    def getLabel(self):
+        return self.label
     # }
 
-# #/**
-# #* Set the label
-# #* @param label the label
-# #*/
-      # setLabel(int label):
-        # self.label = label
-    # }
+#/**
+#* Set the label
+#* @param label the label
+#*/
+    def setLabel(self, label):
+        self.label = label
 
 # #/**
 # #* Get the list of edges
 # #* @return the edges
 # #*/
-     # List getEdges():
-        # return edges
+    def getEdges(self):
+        return self.edges
     # }
 
 # #/**
 # #* Set the list of edges
 # #* @param list the list of edges
 # #*/
-      # setEdges(List list):
-        # edges = list
+    def setEdges(self, list):
+        self.edges = list
     # }
     
 # #/**

@@ -6,15 +6,15 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class DiscreteDependencyTreeNode extends Node {
+DiscreteDependencyTreeNode (Node):
 #/** 
 #* The conditional probabilities 
 #*/
-    double[][] probabilities
+   # double[][] probabilities
 #/**
 #* The parent
 #*/
-    int parent
+    #int parent
     
 #/**
 #* Make a dependency tree node
@@ -25,33 +25,27 @@
 #* @param m the bayesian estimate parameter
 #* @param t the tree
 #*/
-     DiscreteDependencyTreeNode(DataSet dataSet,
-               Node node, int parent, double m, Tree t):
-        DataSetDescription dsd = dataSet.getDescription()
-        double[][] probabilities = 
-            new double[dsd.getDiscreteRange(parent)][dsd.getDiscreteRange(node.getLabel())]
-        double[] sums = new double[dsd.getDiscreteRange(parent)]
-        for (int i = 0 i < dataSet.size() i++):
-            probabilities[dataSet.get(i).getDiscrete(parent)]
-                [dataSet.get(i).getDiscrete(node.getLabel())] += dataSet.get(i).getWeight()
+    def __init__(self, DataSet dataSet, Node node, int parent, double m, Tree t):
+        # DataSet dataSet, Node node, int parent, double m, Tree t
+        dsd = dataSet.getDescription()
+        probabilities = [0.0] * dsd.getDiscreteRange(parent)
+        for i in range(len(probabilities)):
+            probabilities[i] = [0.0] * dsd.getDiscreteRange(node.getLabel())
+        sums = [0.0] * dsd.getDiscreteRange(parent)
+        for i in range(len(dataSet)):
+            probabilities[dataSet.get(i).getDiscrete(parent)][dataSet.get(i).getDiscrete(node.getLabel())] += dataSet.get(i).getWeight()
             sums[dataSet.get(i).getDiscrete(parent)] += dataSet.get(i).getWeight()
-        }
-        for (int i = 0 i < probabilities.length i++):
-            for (int j = 0 j < probabilities[i].length j++):
-                probabilities[i][j] = (probabilities[i][j] + m / probabilities[i].length)
-                    / (sums[i] + m)
-            }
-        }
+        for i in range(len(probabilities)):
+            for j in range(len(probabilities[i])):
+                probabilities[i][j] = (probabilities[i][j] + m / len(probabilities[i])) / (sums[i] + m)
+          
         self.probabilities = probabilities
         self.parent = parent
         t.addNode(self)
-        setLabel(node.getLabel())
+        self.setLabel(node.getLabel())
         for (int i = 0 i < node.getEdgeCount() i++):
-            DiscreteDependencyTreeNode dtc = new DiscreteDependencyTreeNode(
-                dataSet, node.getEdge(i).getOther(node), node.getLabel(), m, t)
+            dtc = new DiscreteDependencyTreeNode(dataSet, node.getEdge(i).getOther(node), node.getLabel(), m, t)
             connectDirected(dtc, new Edge())
-        }
-    }
     
 #/**
 #* Calculate the probability

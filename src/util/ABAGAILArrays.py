@@ -265,7 +265,9 @@ class ABAGAILArrays:
                 high = mid
             
             mid = low + (high - low) / 2
-        
+        # This is a hack, I'm honestly not sure what the right approach is, but it seems like we keep outputting a value that is the length of the array.
+        # if high >= len(a):
+            # high = len(a) - 1
         return high
     
     

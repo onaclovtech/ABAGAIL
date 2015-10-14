@@ -1,5 +1,5 @@
 from src.util.graph.Node import *
-
+from src.dist.DiscreteDependencyTreeNode import *
 
 #/**
 #* A root node in a discrete dependency tree
@@ -21,7 +21,7 @@ class DiscreteDependencyTreeRootNode(Node):
      def __init__(self, dataSet, node, m, t):
      #DataSet dataSet, Node node, double m,  Tree t
         dsd = dataSet.getDescription()
-        self.probabilities = [None] * dsd.getDiscreteRange(node.getLabel())
+        self.probabilities = [0.0] * dsd.getDiscreteRange(node.getLabel())
         weightSum = 0.0
         for i in range(dataSet.size()):
             self.probabilities[dataSet.get(i).getDiscrete(node.getLabel())] += dataSet.get(i).getWeight()
@@ -30,7 +30,7 @@ class DiscreteDependencyTreeRootNode(Node):
         for i in range(len(self.probabilities)):
             self.probabilities[i] = (self.probabilities[i] + m / len(self.probabilities)) / (weightSum + m)
         t.addNode(self)
-        setLabel(node.getLabel())
+        self.setLabel(node.getLabel())
         for i in range(node.getEdgeCount()):
             dtn = DiscreteDependencyTreeNode(dataSet, node.getEdge(i).getOther(node), node.getLabel(), m, t)
             connectDirected(dtn, Edge())

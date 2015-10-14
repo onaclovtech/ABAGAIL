@@ -1,44 +1,38 @@
-
+from src.util.graph.Graph import *
 #/**
 #* A tree is a directed graph with a root
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class Tree extends Graph {
+class Tree(Graph):
     
 #/**
 #* The root node
 #*/
-    Node root
-    
-#/**
-#* Make a rooted graph
-#*/
-     Tree():
-    }
+#    Node root
+
     
 #/**
 #* Make a new tree
 #* @param root the root
 #*/
-     Tree(Node root):
-        self.root = root
-    }
+    def __init__(self, root = None):
+       Graph.__init__(self)
+       if not root is None:
+            self.root = root
+    
 
 #/**
 #* Get the root
 #* @return the root
 #*/
-     Node getRoot():
-        return root
-    }
+    def getRoot(self):
+        return self.root
+    
 
 #/**
 #* Set the root 
 #* @param node the root
 #*/
-      setRoot(Node node):
-        root = node
-    }
-
-}
+    def setRoot(self, node):
+        self.root = node

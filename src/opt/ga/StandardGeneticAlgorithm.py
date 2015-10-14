@@ -27,6 +27,7 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
         self.values = [None] * populationSize
         for i in range(len(self.values)):
             self.values[i] = gap.value(self.population[i])
+        #print 'StandardGeneticAlgo.__init__.self.values' + str(self.values)
         
 #    /**
 #     * @see shared.Trainer#train()
@@ -43,13 +44,14 @@ class StandardGeneticAlgorithm(OptimizationAlgorithm):
             return sum
 
         for i in range(len(probabilities)):
-            probabilities[i] /= sum
+            probabilities[i] /= float(sum)
 
         dd = DiscreteDistribution(probabilities = probabilities)
   
         # make the children
         newValues = [None] * self.populationSize
         newPopulation = [None] * self.populationSize
+        #print "SGA.train.self.population.length" + str(len(self.population))
         for i in range(self.toMate):
             # pick the mates
             a = self.population[dd.sample(None).getDiscrete()]

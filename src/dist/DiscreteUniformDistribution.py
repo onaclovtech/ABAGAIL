@@ -50,7 +50,7 @@ class DiscreteUniformDistribution (AbstractDistribution):
             # raise TypeError("Expected Instance got " + str(ignored.__class__))
         d  = [None] * len(self.n)
         for i in range(len(d)):
-            d[i] = random.randint(0,self.n[i])
+            d[i] = random.randint(0,self.n[i]-1)
         
         return Instance(ds = d)
     

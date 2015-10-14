@@ -51,6 +51,7 @@ class DiscreteDistribution(AbstractDistribution):
          
          if probabilities:
             self.probabilities = probabilities
+            #print "DiscreteDistribution.__init__.self.probabilities.length" + str(len(self.probabilities))
             self.m = len(probabilities)
             self.prior = [1.0/len(probabilities)] * len(probabilities)
          self.cummulatives = None
@@ -86,11 +87,15 @@ class DiscreteDistribution(AbstractDistribution):
 #* @return the discrete value
 #*/
       def sample(self, ignored):
-        if not (self.cummulatives):
+        if self.cummulatives is None:
             self.calculateCummulatives()
         rand = random.random()
+        #print "DiscreteDistribution.sample.random" + str(rand)
+        #print "DiscreteDistribution.sample.cummulative" + str(self.cummulatives)
         temp = ABAGAILArrays()
-        return Instance(val = temp.search(self.cummulatives, rand))  
+        result = temp.search(self.cummulatives, rand)
+       # print "DiscreteDistribution.sample.search.result" + str(result)
+        return Instance(val = result)  
     # }
     
 # #/**

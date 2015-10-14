@@ -5,81 +5,80 @@
 #* @author Andrew Guillory gtg008g@mail.gatech.edu
 #* @version 1.0
 #*/
- class Graph {
+class Graph:
 #/**
 #* The list of nodes
 #*/
-    List nodes
+    #List nodes
     
 #/**
 #* Make a new graph
 #*/
-     Graph():
-        nodes = new ArrayList()
-    }
+     def __init__(self):
+        self.nodes = []
+
     
 #/**
 #* Add a node
 #* @param n the node to add
 #*/
-      addNode(Node n):
-        n.setLabel(getNodeCount())
-        nodes.add(n)
-    }
+     def addNode(self, n):
+        n.setLabel(self.getNodeCount())
+        self.nodes.append(n)
     
 #/**
 #* Get a node
 #* @param i the node to get
 #* @return the node
 #*/
-     Node getNode(int i):
-        return (Node) nodes.get(i)
-    }
+     def getNode(self, i):
+        return self.nodes[i]
+    
     
 #/**
 #* Get the number of nodes in the graph
 #* @return the number of nodes
 #*/
-     int getNodeCount():
-        return nodes.size()
-    }
+     def getNodeCount(self):
+        return len(self.nodes)
     
-#/**
-#* Get the set of edges
-#* @return the edges
-#*/
-     Set getEdges():
-        Set set = new HashSet()
-        for (int i = 0 i < getNodeCount() i++):
-            set.addAll(getNode(i).getEdges())
-        }
-        return set
-    }
-#/**
-#* Get the nodes
-#* @return the nodes
-#*/
-     List getNodes():
-        return nodes
-    }
+# #/**
+# #* Get the set of edges
+# #* @return the edges
+# #*/
+     def getEdges(self):
+        result = []
+        for i in range(self.getNodeCount()):
+            result = result + self.getNode(i).getEdges()
+        # }
+        return result
+    # }
+# #/**
+# #* Get the nodes
+# #* @return the nodes
+# #*/
+     def getNodes(self):
+        return self.nodes
+    # }
 
-#/**
-#* Set the nodes
-#* @param list the nodes
-#*/
-      setNodes(List list):
-        nodes = list
-    }
+# #/**
+# #* Set the nodes
+# #* @param list the nodes
+# #*/
+     def setNodes(self, list):
+        self.nodes = list
+    # }
     
-#/**
-#* @see java.lang.Object#toString()
-#*/
-     String toString():
-       String result = ""
-       for (int i = 0 i < getNodeCount() i++):
-           result += getNode(i) + "\n" 
-       }
-       return result
-    }
+# #/**
+# #* @see java.lang.Object#toString()
+# #*/
+     def toString(self):
+       result = []
+       for i in range(self.getNodeCount()):
+           print "graph.getNode()" + str(self.getNode(i).getLabel())
+           result.append(str(self.getNode(i).getLabel())) 
+       # }
+       return '\n'.join(result)
+    # }
 
-}
+# }

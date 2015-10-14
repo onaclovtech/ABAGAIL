@@ -3,6 +3,11 @@ from src.shared.DataSetDescription import *
 from src.util.linalg.DenseVector import *
 from src.shared.DataSet import *
 from src.dist.DiscreteDependencyTreeRootNode import *
+from src.util.graph.Graph import *
+from src.util.graph.WeightedEdge import *
+from src.util.graph.KruskalsMST import *
+from src.util.graph.DFSTree import *
+
 import math
 #/**
 #* A discrete dependency distribution
@@ -96,7 +101,7 @@ class DiscreteDependencyTree(AbstractDistribution):
                 observations.setDescription(DataSetDescription(observations))
         mutualI = self.calculateMutualInformation(observations)
         # construct the graph
-        rg = buildDirectedMST(observations, mutualI)
+        rg = self.buildDirectedMST(observations, mutualI)
         # make the dependency tree
         self.dt = Tree()
         self.root = DiscreteDependencyTreeRootNode(observations, rg.getRoot(), self.m, self.dt)
@@ -126,6 +131,8 @@ class DiscreteDependencyTree(AbstractDistribution):
                 b = g.getNode(j)
                 a.connect(b, WeightedEdge(-mutualI[i][j]))
         # find the mst
+#        print "DiscreteDependencyTree.buildDirectedMST.g" + str(g.__class__)
+#        print "DiscreteDependencyTree.buildDirectedMST.g" + str(g.toString())
         g = KruskalsMST().transform(g)
         # direct it
         rg = DFSTree().transform(g)
@@ -141,15 +148,20 @@ class DiscreteDependencyTree(AbstractDistribution):
      def calculateMutualInformation(self, observations):
         if not isinstance(observations,DataSet):
             raise TypeError("Expected Instance got" + str(observations.__class__))
+        #print "Discrete.Dependency.Tree.calculateMutualInformation.observatinos.size" + str(observations.get(0).size())
         dsd = observations.getDescription()
         # probs[i][j] is the probability that x_i = j
-        probs = [None] * observations.get(0).size()
+        probs = [0.0] * observations.get(0).size()
         for i in range(len(probs)):
-            probs[i] = [None] * dsd.getDiscreteRange(i)
+            probs[i] = [0.0] * dsd.getDiscreteRange(i)
         weightSum = 0.0
         # fill in probs
+        #print "probs.size" + str(len(probs))
+        #print "probs[0].size" + str(len(probs[0]))
         for i in range(observations.size()):
             for  j in range(observations.get(i).size()):
+                #print "DiscreteDependencyTree.calc.observations.get(i).getDiscrete(j).i:" + str(i) + "j:" + str(j) + "final: " + str(observations.get(i).getDiscrete(j))
+                #print "DiscreteDependencyTree.calc.observations.get(i).getDiscrete(j).i:" + str(i) + "j:" + str(j) + "final: " + str(observations.get(i).getDiscrete(j))
                 probs[j][observations.get(i).getDiscrete(j)] = probs[j][observations.get(i).getDiscrete(j)] + observations.get(i).getWeight()
             weightSum = weightSum + observations.get(i).getWeight()
         # normalize
@@ -157,21 +169,23 @@ class DiscreteDependencyTree(AbstractDistribution):
             for j in range(len(probs[i])):
                 probs[i][j] /= weightSum
         # calculate the entropies of the different variables
-        entropies = [None] * observations.get(0).size()
+        entropies = [0.0] * observations.get(0).size()
         for i in range(observations.get(0).size()):
             for j in range(dsd.getDiscreteRange(i)):
                 if (probs[i][j] != 0):
                     entropies[i] -= probs[i][j] * math.log(probs[i][j])
         # calculate the mutual information between all variables
-        mutualI = [None] * observations.get(0).size()
+        mutualI = [0.0] * observations.get(0).size()
+        i = 0
         for i in range(len(mutualI)):
-            mutualI[i] = [None] * i
+            mutualI[i] = [0.0] * i
+            # Small concerns here. I think it's a little surprising that the last element mutualI[59][59] never gets set. I'm not sure if that's an expected scenario, love to compare to java
             for j in range(i):
                 # the joint probabilities
                 # joints[a][b] is the probability that x_i = a && x_j = b
-                joints = [None] * dsd.getDiscreteRange(i)
-                for i in range(len(joints)):
-                    joints[i] = [None] * dsd.getDiscreteRange(j)
+                joints = [0.0] * dsd.getDiscreteRange(i)
+                for p in range(len(joints)):
+                    joints[p] = [0.0] * dsd.getDiscreteRange(j)
                 # fill in the joints
                 for k in range(observations.size()):
                     instance = observations.get(k)
@@ -182,14 +196,18 @@ class DiscreteDependencyTree(AbstractDistribution):
                         joints[k][l] /= weightSum
                 # calculate the mutual information I(x_i x_j)
                 # add the entropy of x_i
-                mutualI[i][j] += entropies[i]
-                # and the entropy of x_j
-                mutualI[i][j] += entropies[j]
-                # subtract the joint entropy
-                for k in range(len(joints)):
-                    for l in range(len(joints[k])):
-                        if (joints[k][l] != 0):
-                            mutualI[i][j] += joints[k][l] * math.log(joints[k][l])
+                
+                # I believe this is a workaround for java, basically in the case of a 0 size array it's null, I'm *assuming* that it's simply throwing away the operation.
+                if len(mutualI[i]) > 0:
+                    #print "DDT.mutual.lens,entropieslens" + str(len(mutualI)) + " mutual[i] len " + str(len(mutualI[i])) + "entropie len" + str(len(entropies)) + "i" + str(i) + "j" + str(j)
+                    mutualI[i][j] += entropies[i]
+                    # and the entropy of x_j
+                    mutualI[i][j] += entropies[j]
+                    # subtract the joint entropy
+                    for k in range(len(joints)):
+                        for l in range(len(joints[k])):
+                            if (joints[k][l] != 0):
+                                mutualI[i][j] += joints[k][l] * math.log(joints[k][l])
 
         return mutualI
 

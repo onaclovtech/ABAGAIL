@@ -105,7 +105,7 @@ class Instance:
 #* @return the value
 #*/
      def getDiscrete(self, i=0):
-        #print "instance.getDiscrete " + str(self.__dict__)
+        #print "instance.getDiscrete " + str(self.data.get(i))
         return int(round(self.data.get(i)))
        #  raise StubError('getDiscrete Not Implemented Yet')
          
