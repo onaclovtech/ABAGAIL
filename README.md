@@ -1,3 +1,5 @@
+*** Since others are likely to see this, yes I converted most of the code to python, however there was a point where I was getting into the deadline space and had to give up, I'd be happy to take pull requests, but there are some bugs which I haven't identified. I would love to see this repository being a fully functional python implementation of the ABAGAIL program***
+
 ABAGAIL
 =======
 
